@@ -1,0 +1,149 @@
+[
+  {
+    "id": "q_location",
+    "code": "location",
+    "order": 1,
+    "type": "single",
+    "textAr": "أين لاحظت المشكلة أساساً؟",
+    "textFr": "Où avez-vous principalement observé le problème ?",
+    "helpAr": "اختر المكان الأقرب لما رأيته. يمكنك اختيار مكان واحد فقط.",
+    "helpFr": "Choisissez l'endroit le plus proche de votre observation. Une seule réponse.",
+    "options": [
+      { "id": "loc_leaves", "labelAr": "على الأوراق أو السعف", "labelFr": "Sur les feuilles ou les palmes", "descriptionAr": "بما في ذلك بقع الأوراق وثقوبها", "descriptionFr": "Taches et perforations foliaires incluses" },
+      { "id": "loc_stems", "labelAr": "على السيقان أو الجذع", "labelFr": "Sur les tiges ou le tronc", "descriptionAr": "السيقان، الجذع، أو مناطق النمو", "descriptionFr": "Tiges, tronc ou zones de croissance" },
+      { "id": "loc_fruit", "labelAr": "على الثمار أو العراجين", "labelFr": "Sur les fruits ou les régimes", "descriptionAr": "ثمار الطماطم أو التمور", "descriptionFr": "Fruits de tomate ou dattes" },
+      { "id": "loc_roots_tubers", "labelAr": "على الجذور أو الدرنات", "labelFr": "Sur les racines ou tubercules", "descriptionAr": "تحت سطح التربة أو في المخزن", "descriptionFr": "Sous le sol ou en stockage" },
+      { "id": "loc_whole", "labelAr": "النبات كله ذابل أو متضرر", "labelFr": "Toute la plante est flétrie ou atteinte", "descriptionAr": "لا يمكن تحديد عضو واحد", "descriptionFr": "Impossible d'isoler un organe" },
+      { "id": "loc_storage", "labelAr": "داخل المخزن", "labelFr": "Dans le lieu de stockage", "descriptionAr": "درنات أو تمور مخزنة", "descriptionFr": "Tubercules ou dattes stockés" },
+      { "id": "loc_not_sure", "labelAr": "لست متأكداً", "labelFr": "Je ne suis pas sûr", "descriptionAr": "تخطَّ هذا السؤال", "descriptionFr": "Passer cette question" }
+    ]
+  },
+  {
+    "id": "q_organism",
+    "code": "organism",
+    "order": 2,
+    "type": "single",
+    "textAr": "ماذا ترى على النبات؟",
+    "textFr": "Que voyez-vous sur la plante ?",
+    "helpAr": "الحشرات الصغيرة جداً قد تبدو كنقاط. اختر الأقرب للشكل العام.",
+    "helpFr": "Les très petits insectes peuvent ressembler à des points. Choisissez la forme la plus proche.",
+    "options": [
+      { "id": "org_caterpillar", "labelAr": "يرقة أو دودة صغيرة", "labelFr": "Chenille ou larve", "descriptionAr": "جسم طويل، غالباً يتحرك ببطء", "descriptionFr": "Corps allongé, souvent lent" },
+      { "id": "org_soft_insects", "labelAr": "حشرات صغيرة طرية", "labelFr": "Petits insectes à corps mou", "descriptionAr": "غالباً في مجموعات", "descriptionFr": "Souvent en colonies" },
+      { "id": "org_whitefly", "labelAr": "حشرات بيضاء صغيرة تطير", "labelFr": "Petits insectes blancs qui volent", "descriptionAr": "تشبه الغبار الأبيض عند اللمس", "descriptionFr": "Ressemblent à une poussière blanche" },
+      { "id": "org_beetle", "labelAr": "خنفساء أو حشرة صلبة", "labelFr": "Coléoptère ou insecte à carapace", "descriptionAr": "جسم صلب، قد يكون لامعاً", "descriptionFr": "Corps dur, parfois brillant" },
+      { "id": "org_moth", "labelAr": "فراشة صغيرة", "labelFr": "Petit papillon", "descriptionAr": "غالباً نشطة عند الغروب", "descriptionFr": "Souvent active au crépuscule" },
+      { "id": "org_scale", "labelAr": "قشور أو بقع ثابتة على السطح", "labelFr": "Écailles ou taches fixées", "descriptionAr": "لا تتحرك عند لمسها", "descriptionFr": "Immobiles au toucher" },
+      { "id": "org_mite", "labelAr": "غبار أو خيوط دقيقة جداً", "labelFr": "Poussière ou fils très fins", "descriptionAr": "قد تكون أكاروسات", "descriptionFr": "Peut-être des acariens" },
+      { "id": "org_fungus", "labelAr": "عفن أو نمو فطري", "labelFr": "Moisissure ou développement fongique", "descriptionAr": "زغب أو بقع مخملية", "descriptionFr": "Duvet ou taches veloutées" },
+      { "id": "org_none", "labelAr": "لا أرى حشرة، فقط أعراض", "labelFr": "Aucun insecte, seulement des symptômes", "descriptionAr": "بقع، ذبول، تعفن...", "descriptionFr": "Taches, flétrissement, pourriture..." }
+    ]
+  },
+  {
+    "id": "q_damage",
+    "code": "damage",
+    "order": 3,
+    "type": "single",
+    "textAr": "ما نوع الضرر الأبرز؟",
+    "textFr": "Quel est le dommage le plus visible ?",
+    "helpAr": "الحافرات تصنع ممرات داخل الورقة. الإفرازات اللزجة قد تكون علامة على حشرات ماصة.",
+    "helpFr": "Les mineuses creusent des galeries. Les sécrétions collantes indiquent souvent des insectes piqueurs-suceurs.",
+    "options": [
+      { "id": "dmg_mines", "labelAr": "ممرات أو خطوط داخل الورقة", "labelFr": "Galeries ou lignes dans la feuille", "descriptionAr": "نسيج الورقة شفاف أو محفور", "descriptionFr": "Tissu foliaire translucide ou creusé" },
+      { "id": "dmg_holes_fruit", "labelAr": "ثقوب في الثمار", "labelFr": "Trous dans les fruits", "descriptionAr": "قد يصاحبها نشارة أو إفرازات", "descriptionFr": "Parfois avec sciure ou sécrétions" },
+      { "id": "dmg_holes_leaves", "labelAr": "ثقوب أو قضم في الأوراق", "labelFr": "Trous ou morsures sur les feuilles", "descriptionFr": "Bords rongés ou feuilles perforées" },
+      { "id": "dmg_sticky", "labelAr": "إفرازات لزجة أو عسلية", "labelFr": "Sécrétions collantes ou miellat", "descriptionAr": "قد يتبعها سواد فطري", "descriptionFr": "Parfois suivi de fumagine noire" },
+      { "id": "dmg_webbing", "labelAr": "خيوط عنكبوتية", "labelFr": "Fils soyeux", "descriptionAr": "على الأوراق أو الثمار", "descriptionFr": "Sur les feuilles ou les fruits" },
+      { "id": "dmg_lesions", "labelAr": "بقع أو تقرحات على الأوراق", "labelFr": "Taches ou lésions sur les feuilles", "descriptionAr": "قد تكون بنية أو مائية", "descriptionFr": "Brunes ou aqueuses" },
+      { "id": "dmg_scale", "labelAr": "قشور أو دروع ملتصقة", "labelFr": "Écailles ou boucliers fixés", "descriptionAr": "على السعف أو الثمار", "descriptionFr": "Sur les palmes ou les fruits" },
+      { "id": "dmg_wilt", "labelAr": "ذبول أو اصفرار", "labelFr": "Flétrissement ou jaunissement", "descriptionAr": "قد يصيب فرعاً أو النبات كله", "descriptionFr": "Peut toucher une branche ou toute la plante" },
+      { "id": "dmg_rot", "labelAr": "تعفن أو تليّن", "labelFr": "Pourriture ou ramollissement", "descriptionAr": "قد يكون برائحة كريهة", "descriptionFr": "Parfois avec une odeur désagréable" },
+      { "id": "dmg_none", "labelAr": "لا يوجد ضرر واضح بعد", "labelFr": "Aucun dommage visible", "descriptionAr": "مجرد شك أو ملاحظة أولية", "descriptionFr": "Simple doute ou observation précoce" }
+    ]
+  },
+  {
+    "id": "q_pattern",
+    "code": "pattern",
+    "order": 4,
+    "type": "single",
+    "textAr": "هل للضرر نمط مميز؟",
+    "textFr": "Le dommage présente-t-il un motif particulier ?",
+    "helpAr": "مثال: حلقة داخل حلقة في البقع، أو مظهر مبلل بالماء.",
+    "helpFr": "Par exemple : des cercles concentriques, ou un aspect imbibé d'eau.",
+    "options": [
+      { "id": "pat_concentric", "labelAr": "حلقات متداخلة داخل البقع", "labelFr": "Cercles concentriques dans les taches", "descriptionAr": "يشبه هدف الرماية", "descriptionFr": "Comme une cible" },
+      { "id": "pat_watersoaked", "labelAr": "بقع مبللة أو خضراء داكنة سريعة", "labelFr": "Taches imbibées ou vert foncé", "descriptionAr": "تنتشر بسرعة في الجو الرطب", "descriptionFr": "Progressent vite par temps humide" },
+      { "id": "pat_curl", "labelAr": "تجعد أو التفاف الأوراق", "labelFr": "Feuilles froissées ou enroulées", "descriptionAr": "غالباً مع حشرات ماصة", "descriptionFr": "Souvent avec des insectes piqueurs-suceurs" },
+      { "id": "pat_sooty", "labelAr": "سواد أو عفن أسود على الإفرازات", "labelFr": "Noir ou fumagine sur les sécrétions", "descriptionAr": "طبقة سوداء قابلة للمسح", "descriptionFr": "Couche noire pouvant s'essuyer" },
+      { "id": "pat_tunnel", "labelAr": "أنفاق داخل الجذع أو الدرنة", "labelFr": "Galeries dans le tronc ou le tubercule", "descriptionAr": "قد توجد نشارة", "descriptionFr": "Parfois avec de la sciure" },
+      { "id": "pat_exit_hole", "labelAr": "ثقب خروج صغير مع نشارة", "labelFr": "Petit trou de sortie avec sciure", "descriptionAr": "غالباً بعد خروج اليرقة", "descriptionFr": "Souvent après la sortie de la larve" },
+      { "id": "pat_none", "labelAr": "لا يوجد نمط واضح", "labelFr": "Pas de motif clair", "descriptionAr": "غير محدد", "descriptionFr": "Non déterminé" }
+    ]
+  },
+  {
+    "id": "q_size",
+    "code": "size",
+    "order": 5,
+    "type": "single",
+    "textAr": "ما الحجم التقريبي للكائن أو الأثر؟",
+    "textFr": "Quelle est la taille approximative de l'organisme ou de la trace ?",
+    "helpAr": "قارن بمليمترات المسطرة. لا حاجة لدقة عالية.",
+    "helpFr": "Comparez avec les millimètres d'une règle. Une estimation suffit.",
+    "options": [
+      { "id": "size_under_2", "labelAr": "أقل من 2 مم", "labelFr": "Moins de 2 mm", "descriptionAr": "بالكاد يُرى بالعين", "descriptionFr": "À peine visible à l'œil" },
+      { "id": "size_2_10", "labelAr": "من 2 إلى 10 مم", "labelFr": "De 2 à 10 mm", "descriptionAr": "بحجم بذرة صغيرة", "descriptionFr": "Taille d'une petite graine" },
+      { "id": "size_10_25", "labelAr": "من 1 إلى 2.5 سم", "labelFr": "De 1 à 2,5 cm", "descriptionAr": "بحجم حبة أرز إلى حبة فاصوليا", "descriptionFr": "D'un grain de riz à un haricot" },
+      { "id": "size_over_25", "labelAr": "أكثر من 2.5 سم", "labelFr": "Plus de 2,5 cm", "descriptionAr": "حشرة كبيرة أو أثر كبير", "descriptionFr": "Gros insecte ou grande trace" },
+      { "id": "size_not_sure", "labelAr": "لا أستطيع التقدير", "labelFr": "Je ne peux pas estimer", "descriptionAr": "تخطَّ السؤال", "descriptionFr": "Passer" }
+    ]
+  },
+  {
+    "id": "q_color",
+    "code": "color",
+    "order": 6,
+    "type": "single",
+    "textAr": "ما لون الكائن أو النمو الأبرز؟",
+    "textFr": "Quelle est la couleur dominante de l'organisme ?",
+    "helpAr": "إذا كان الكائن غير مرئي، اختر \"لا ينطبق\".",
+    "helpFr": "Si l'organisme n'est pas visible, choisissez « non applicable ».",
+    "options": [
+      { "id": "col_green", "labelAr": "أخضر", "labelFr": "Vert", "descriptionAr": "أخضر فاتح أو داكن", "descriptionFr": "Vert clair ou foncé" },
+      { "id": "col_brown_black", "labelAr": "بني أو أسود", "labelFr": "Brun ou noir", "descriptionAr": "داكن", "descriptionFr": "Sombre" },
+      { "id": "col_white_yellow", "labelAr": "أبيض أو أصفر", "labelFr": "Blanc ou jaune", "descriptionAr": "فاتح", "descriptionFr": "Clair" },
+      { "id": "col_red_orange", "labelAr": "أحمر أو برتقالي", "labelFr": "Rouge ou orange", "descriptionAr": "واضح", "descriptionFr": "Marqué" },
+      { "id": "col_grey", "labelAr": "رمادي أو فضي", "labelFr": "Gris ou argenté", "descriptionAr": "مثل القشور", "descriptionFr": "Comme des écailles" },
+      { "id": "col_not_visible", "labelAr": "لا ينطبق / لا أرى الكائن", "labelFr": "Non applicable / organisme invisible", "descriptionAr": "أعراض فقط", "descriptionFr": "Symptômes uniquement" }
+    ]
+  },
+  {
+    "id": "q_mobility",
+    "code": "mobility",
+    "order": 7,
+    "type": "single",
+    "textAr": "كيف يتحرك الكائن؟",
+    "textFr": "Comment l'organisme se déplace-t-il ?",
+    "helpAr": "راقب دون لمسه إن أمكن.",
+    "helpFr": "Observez sans le toucher si possible.",
+    "options": [
+      { "id": "mob_fast", "labelAr": "سريع الحركة أو يطير", "labelFr": "Rapide ou volant", "descriptionAr": "ينتقل بسرعة", "descriptionFr": "Se déplace vite" },
+      { "id": "mob_slow", "labelAr": "بطيء الحركة أو يزحف", "labelFr": "Lent ou rampant", "descriptionAr": "يرقة أو حشرة صغيرة", "descriptionFr": "Chenille ou petit insecte" },
+      { "id": "mob_stationary", "labelAr": "ثابت ملتصق بالنبات", "labelFr": "Immobile, fixé à la plante", "descriptionAr": "لا يتحرك عند المراقبة", "descriptionFr": "Ne bouge pas à l'observation" },
+      { "id": "mob_not_seen", "labelAr": "لم أرَ الكائن", "labelFr": "Je n'ai pas vu l'organisme", "descriptionAr": "أعراض فقط", "descriptionFr": "Symptômes uniquement" }
+    ]
+  },
+  {
+    "id": "q_stages",
+    "code": "life_stages",
+    "order": 8,
+    "type": "single",
+    "textAr": "هل ترى أكثر من طور حياتي معاً؟",
+    "textFr": "Voyez-vous plusieurs stades de vie ensemble ?",
+    "helpAr": "مثل بيض ويرقات وحشرات بالغة في نفس المكان.",
+    "helpFr": "Par exemple œufs, larves et adultes au même endroit.",
+    "options": [
+      { "id": "stg_multiple", "labelAr": "نعم، أطوار متعددة", "labelFr": "Oui, plusieurs stades", "descriptionAr": "مؤشر على تكاثر محلي", "descriptionFr": "Indice de reproduction locale" },
+      { "id": "stg_single", "labelAr": "لا، طور واحد فقط", "labelFr": "Non, un seul stade", "descriptionAr": "مثلاً حشرات بالغة فقط", "descriptionFr": "Par exemple adultes seulement" },
+      { "id": "stg_not_sure", "labelAr": "لا أعرف", "labelFr": "Je ne sais pas", "descriptionAr": "تخطَّ السؤال", "descriptionFr": "Passer" }
+    ]
+  }
+]

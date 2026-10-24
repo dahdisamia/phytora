@@ -1,0 +1,32 @@
+{
+  "symptoms": [
+    { "id": "sym-leaf-mines", "slug": "leaf-mines", "nameAr": "ممرات داخل الأوراق", "nameFr": "Galeries foliaires" },
+    { "id": "sym-sticky", "slug": "sticky-honeydew", "nameAr": "إفرازات لزجة", "nameFr": "Miellat collant" },
+    { "id": "sym-sooty", "slug": "sooty-mold", "nameAr": "عفن أسود / سواد", "nameFr": "Fumagine" },
+    { "id": "sym-yellowing", "slug": "yellowing", "nameAr": "اصفرار", "nameFr": "Jaunissement" },
+    { "id": "sym-wilting", "slug": "wilting", "nameAr": "ذبول", "nameFr": "Flétrissement" },
+    { "id": "sym-fruit-holes", "slug": "fruit-holes", "nameAr": "ثقوب في الثمار", "nameFr": "Trous dans les fruits" },
+    { "id": "sym-leaf-spots", "slug": "leaf-spots", "nameAr": "بقع على الأوراق", "nameFr": "Taches foliaires" },
+    { "id": "sym-concentric", "slug": "concentric-rings", "nameAr": "حلقات متداخلة", "nameFr": "Cercles concentriques" },
+    { "id": "sym-water-soaked", "slug": "water-soaked", "nameAr": "بقع مائية", "nameFr": "Taches aqueuses" },
+    { "id": "sym-white-growth", "slug": "white-growth", "nameAr": "نمو أبيض زغبي", "nameFr": "Duvet blanc" },
+    { "id": "sym-scales", "slug": "scale-crusts", "nameAr": "قشور ملتصقة", "nameFr": "Écailles fixées" },
+    { "id": "sym-tunnels", "slug": "trunk-tunnels", "nameAr": "أنفاق في الجذع", "nameFr": "Galeries dans le tronc" },
+    { "id": "sym-frass", "slug": "frass", "nameAr": "نشارة أو فضلات", "nameFr": "Sciure ou déjections" },
+    { "id": "sym-leaf-curl", "slug": "leaf-curl", "nameAr": "التفاف الأوراق", "nameFr": "Enroulement foliaire" },
+    { "id": "sym-fruit-rot", "slug": "fruit-rot", "nameAr": "تعفن الثمار", "nameFr": "Pourriture des fruits" },
+    { "id": "sym-tuber-rot", "slug": "tuber-rot", "nameAr": "تعفن الدرنات", "nameFr": "Pourriture des tubercules" }
+  ],
+  "damageTypes": [
+    { "id": "dmg-leaf-mining", "slug": "leaf-mining", "nameAr": "حفر الأوراق", "nameFr": "Minage foliaire" },
+    { "id": "dmg-sap-feeding", "slug": "sap-feeding", "nameAr": "امتصاص العصارة", "nameFr": "Prélèvement de sève" },
+    { "id": "dmg-fruit-boring", "slug": "fruit-boring", "nameAr": "حفر الثمار", "nameFr": "Forage des fruits" },
+    { "id": "dmg-foliar-lesions", "slug": "foliar-lesions", "nameAr": "تلف الأوراق", "nameFr": "Lésions foliaires" },
+    { "id": "dmg-defoliation", "slug": "defoliation", "nameAr": "تساقط الأوراق", "nameFr": "Défoliation" },
+    { "id": "dmg-trunk-boring", "slug": "trunk-boring", "nameAr": "حفر الجذع", "nameFr": "Forage du tronc" },
+    { "id": "dmg-quality-loss", "slug": "quality-loss", "nameAr": "تدهور الجودة", "nameFr": "Perte de qualité" },
+    { "id": "dmg-virus-transmission", "slug": "virus-transmission", "nameAr": "نقل الفيروسات", "nameFr": "Transmission de virus" },
+    { "id": "dmg-tuber-damage", "slug": "tuber-damage", "nameAr": "تلف الدرنات", "nameFr": "Dommages aux tubercules" },
+    { "id": "dmg-storage-loss", "slug": "storage-loss", "nameAr": "خسائر التخزين", "nameFr": "Pertes de stockage" }
+  ]
+}

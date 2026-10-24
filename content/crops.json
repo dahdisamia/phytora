@@ -1,0 +1,62 @@
+[
+  {
+    "id": "crop-date-palm",
+    "slug": "date-palm",
+    "nameAr": "نخيل التمر",
+    "nameFr": "Palmier dattier",
+    "scientificName": "Phoenix dactylifera",
+    "category": "fruits",
+    "descriptionAr": "زراعة استراتيجية في الوادي، وتشمل أصنافاً مثل دقلة نور. تتركّز الإصابات عادة في السعف والعراجين والتمور.",
+    "descriptionFr": "Culture emblématique d'El Oued, notamment la Deglet Nour. Les problèmes se concentrent souvent sur les palmes, les régimes et les dattes.",
+    "imageKey": "date-palm",
+    "regionIds": ["dz-eloued"],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      { "id": "date-palm-vegetative", "code": "vegetative", "nameAr": "نمو خضري", "nameFr": "Croissance végétative", "order": 1 },
+      { "id": "date-palm-flowering", "code": "flowering", "nameAr": "الإزهار والتلقيح", "nameFr": "Floraison et pollinisation", "order": 2 },
+      { "id": "date-palm-fruit-set", "code": "fruit_set", "nameAr": "عقد الثمار", "nameFr": "Nouaison", "order": 3 },
+      { "id": "date-palm-ripening", "code": "ripening", "nameAr": "النضج والحصاد", "nameFr": "Maturation et récolte", "order": 4 }
+    ]
+  },
+  {
+    "id": "crop-potato",
+    "slug": "potato",
+    "nameAr": "البطاطا",
+    "nameFr": "Pomme de terre",
+    "scientificName": "Solanum tuberosum",
+    "category": "vegetables",
+    "descriptionAr": "من أهم محاصيل الوادي، وتُزرع في دورات متعددة. راقب الدرنات والأوراق خاصة في الطقس الرطب أو أثناء التخزين.",
+    "descriptionFr": "Une des principales cultures d'El Oued, conduite en plusieurs cycles. Surveillez les tubercules et le feuillage, surtout par temps humide ou au stockage.",
+    "imageKey": "potato",
+    "regionIds": ["dz-eloued"],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      { "id": "potato-planting", "code": "planting", "nameAr": "الغرس", "nameFr": "Plantation", "order": 1 },
+      { "id": "potato-vegetative", "code": "vegetative", "nameAr": "النمو الخضري", "nameFr": "Croissance végétative", "order": 2 },
+      { "id": "potato-tuber-init", "code": "tuber_initiation", "nameAr": "بداية تكوين الدرنات", "nameFr": "Initiation des tubercules", "order": 3 },
+      { "id": "potato-bulking", "code": "bulking", "nameAr": "تضخم الدرنات", "nameFr": "Grossissement des tubercules", "order": 4 },
+      { "id": "potato-harvest", "code": "harvest", "nameAr": "الحصاد", "nameFr": "Récolte", "order": 5 },
+      { "id": "potato-storage", "code": "storage", "nameAr": "التخزين", "nameFr": "Stockage", "order": 6 }
+    ]
+  },
+  {
+    "id": "crop-tomato",
+    "slug": "tomato",
+    "nameAr": "الطماطم",
+    "nameFr": "Tomate",
+    "scientificName": "Solanum lycopersicum",
+    "category": "vegetables",
+    "descriptionAr": "تُزرع في الحقل والبيوت البلاستيكية. التعرّف المبكر على حافرات الأوراق والحشرات الماصة يقلل الخسائر.",
+    "descriptionFr": "Cultivée en plein champ et sous abri. Une détection précoce des mineuses et des insectes piqueurs-suceurs réduit les pertes.",
+    "imageKey": "tomato",
+    "regionIds": ["dz-eloued"],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      { "id": "tomato-seedling", "code": "seedling", "nameAr": "الشتلة", "nameFr": "Plantule", "order": 1 },
+      { "id": "tomato-vegetative", "code": "vegetative", "nameAr": "النمو الخضري", "nameFr": "Croissance végétative", "order": 2 },
+      { "id": "tomato-flowering", "code": "flowering", "nameAr": "الإزهار", "nameFr": "Floraison", "order": 3 },
+      { "id": "tomato-fruit", "code": "fruit_set", "nameAr": "عقد الثمار", "nameFr": "Nouaison", "order": 4 },
+      { "id": "tomato-harvest", "code": "harvest", "nameAr": "الحصاد", "nameFr": "Récolte", "order": 5 }
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "src-eppo-gnorab-dz",
+    "title": "Phthorimaea absoluta (GNORAB) — Distribution details in Algeria",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/GNORAB/distribution/DZ",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-gnorab",
+    "title": "Phthorimaea absoluta (GNORAB) — EPPO datasheet and overview",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/GNORAB",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eloued-tuta",
+    "title": "Bioecology of Tuta absoluta Meyrick 1917 (Lepidoptera: Gelichiidae) on tomato under greenhouse in the oasis of El-Oued (Algeria)",
+    "publisher": "Agrarian Academy",
+    "url": "https://doi.org/10.32406/v7n5/2024/34-44/agrariacad",
+    "publicationDate": "2024-09-01",
+    "accessedDate": "2026-10-23",
+    "kind": "research",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-phtoop-dz",
+    "title": "Phthorimaea operculella (PHTOOP) — Distribution details in Algeria",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/PHTOOP/distribution/DZ",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-phtoop",
+    "title": "Phthorimaea operculella (PHTOOP) — EPPO overview",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/PHTOOP",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-cip-ptm",
+    "title": "Potato tuber moth, Phthorimaea operculella (Zeller 1873)",
+    "publisher": "International Potato Center (CIP)",
+    "url": "https://doi.org/10.4160/9789290604761-1",
+    "publicationDate": "2017",
+    "accessedDate": "2026-10-23",
+    "kind": "guideline",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-parlbl",
+    "title": "Parlatoria blanchardi (PARLBL) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/PARLBL",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-biskra-parlbl",
+    "title": "Effect of climatic factors on the evolution of the white date palm scale Parlatoria blanchardi at Biskra oasis, Algeria",
+    "publisher": "Ponte Academic Journal",
+    "url": "https://doi.org/10.21506/j.ponte.2020.12.17",
+    "publicationDate": "2020",
+    "accessedDate": "2026-10-23",
+    "kind": "research",
+    "language": "en"
+  },
+  {
+    "id": "src-algeria-date-bagging",
+    "title": "Use of bagging dates bunches and cleaning of Phoenix dactylifera as means of fight against Ectomyelois ceratoniae Zeller infestation in Algeria palm groves",
+    "publisher": "Ponte Academic Journal",
+    "url": "https://doi.org/10.21506/j.ponte.2017.1.4",
+    "publicationDate": "2017",
+    "accessedDate": "2026-10-23",
+    "kind": "research",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-rhycfe",
+    "title": "Rhynchophorus ferrugineus (RHYCFE) — World distribution",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/RHYCFE/distribution",
+    "publicationDate": "2026-03-04",
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-bemita-dz",
+    "title": "Bemisia tabaci (BEMITA) — Distribution details in Algeria",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/BEMITA/distribution/DZ",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-heliar-dz",
+    "title": "Helicoverpa armigera (HELIAR) — Distribution details in Algeria",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/HELIAR/distribution/DZ",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-myzupe",
+    "title": "Myzus persicae (MYZUPE) — EPPO overview",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/MYZUPE",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-alteso",
+    "title": "Alternaria solani (ALTESO) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/ALTESO",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-phytin",
+    "title": "Phytophthora infestans (PHYTIN) — EPPO overview",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/PHYTIN",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-ucipm-tomato",
+    "title": "Tomato — Pest Management Guidelines",
+    "publisher": "University of California Statewide IPM Program",
+    "url": "https://ipm.ucanr.edu/agriculture/tomato/",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "guideline",
+    "language": "en"
+  },
+  {
+    "id": "src-ucipm-potato",
+    "title": "Potato — Pest Management Guidelines",
+    "publisher": "University of California Statewide IPM Program",
+    "url": "https://ipm.ucanr.edu/agriculture/potato/",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "guideline",
+    "language": "en"
+  },
+  {
+    "id": "src-ucipm-natural-enemies",
+    "title": "Natural Enemies Gallery",
+    "publisher": "University of California Statewide IPM Program",
+    "url": "https://ipm.ucanr.edu/natural-enemies/",
+    "publicationDate": null,
+    "accessedDate": "2026-10-23",
+    "kind": "guideline",
+    "language": "en"
+  },
+  {
+    "id": "src-fao-code-conduct",
+    "title": "International Code of Conduct on Pesticide Management",
+    "publisher": "Food and Agriculture Organization of the United Nations / World Health Organization",
+    "url": "https://www.fao.org/3/i3604e/i3604e.pdf",
+    "publicationDate": "2014",
+    "accessedDate": "2026-10-23",
+    "kind": "regulation",
+    "language": "en"
+  },
+  {
+    "id": "src-biskra-parlbl-cabi",
+    "title": "Parlatoria blanchardi (Parlatoria date scale)",
+    "publisher": "CABI Compendium",
+    "url": "https://doi.org/10.1079/cabicompendium.38903",
+    "publicationDate": "2021-11-16",
+    "accessedDate": "2026-10-23",
+    "kind": "datasheet",
+    "language": "en"
+  }
+]

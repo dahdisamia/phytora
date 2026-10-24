@@ -1,0 +1,43 @@
+{
+  "countries": [
+    {
+      "code": "DZ",
+      "nameAr": "الجزائر",
+      "nameFr": "Algérie",
+      "defaultLocale": "ar"
+    }
+  ],
+  "regions": [
+    {
+      "id": "dz-eloued",
+      "code": "39",
+      "countryCode": "DZ",
+      "nameAr": "ولاية الوادي",
+      "nameFr": "Wilaya d'El Oued",
+      "countryNameAr": "الجزائر",
+      "countryNameFr": "Algérie"
+    }
+  ],
+  "municipalities": [
+    { "id": "dz-eloued-eloued", "regionId": "dz-eloued", "nameAr": "الوادي", "nameFr": "El Oued" },
+    { "id": "dz-eloued-guemar", "regionId": "dz-eloued", "nameAr": "قمار", "nameFr": "Guemar" },
+    { "id": "dz-eloued-debila", "regionId": "dz-eloued", "nameAr": "الدبيلة", "nameFr": "Debila" },
+    { "id": "dz-eloued-robbah", "regionId": "dz-eloued", "nameAr": "الرباح", "nameFr": "Robbah" },
+    { "id": "dz-eloued-hassikhelifa", "regionId": "dz-eloued", "nameAr": "حاسي خليفة", "nameFr": "Hassi Khelifa" },
+    { "id": "dz-eloued-reguiba", "regionId": "dz-eloued", "nameAr": "الرقيبة", "nameFr": "Reguiba" },
+    { "id": "dz-eloued-taleblarbi", "regionId": "dz-eloued", "nameAr": "طالب العربي", "nameFr": "Taleb Larbi" },
+    { "id": "dz-eloued-magrane", "regionId": "dz-eloued", "nameAr": "المقران", "nameFr": "Magrane" },
+    { "id": "dz-eloued-mihouansa", "regionId": "dz-eloued", "nameAr": "اميه وانسة", "nameFr": "Mih Ouansa" },
+    { "id": "dz-eloued-sidiaoun", "regionId": "dz-eloued", "nameAr": "سيدي عون", "nameFr": "Sidi Aoun" },
+    { "id": "dz-eloued-bayadha", "regionId": "dz-eloued", "nameAr": "البياضة", "nameFr": "Bayadha" },
+    { "id": "dz-eloued-kouinine", "regionId": "dz-eloued", "nameAr": "الكويفين", "nameFr": "Kouinine" },
+    { "id": "dz-eloued-nakhla", "regionId": "dz-eloued", "nameAr": "النخلة", "nameFr": "Nakhla" },
+    { "id": "dz-eloued-ouedelalenda", "regionId": "dz-eloued", "nameAr": "وادي العلندة", "nameFr": "Oued El Alenda" },
+    { "id": "dz-eloued-trifaoui", "regionId": "dz-eloued", "nameAr": "الطريفاوي", "nameFr": "Trifaoui" },
+    { "id": "dz-eloued-beniguecha", "regionId": "dz-eloued", "nameAr": "بني قشة", "nameFr": "Beni Guecha" },
+    { "id": "dz-eloued-hamraia", "regionId": "dz-eloued", "nameAr": "الحمراية", "nameFr": "Hamraia" },
+    { "id": "dz-eloued-still", "regionId": "dz-eloued", "nameAr": "الستيل", "nameFr": "Still" },
+    { "id": "dz-eloued-ourmes", "regionId": "dz-eloued", "nameAr": "أورماس", "nameFr": "Ourmes" },
+    { "id": "dz-eloued-douarelma", "regionId": "dz-eloued", "nameAr": "دوار الماء", "nameFr": "Douar El Ma" }
+  ]
+}
