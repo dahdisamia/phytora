@@ -96,7 +96,7 @@ export function Crops() {
                       <h2>{crop.nameAr}</h2>
                       <small>{crop.nameFr} — {crop.nameEn} — {crop.scientificName}</small>
                     </div>
-                    <Link className="btn btn-ghost" to={`/diagnosis?crop=${crop.id}`}>تشخيص</Link>
+                    <Link className="btn btn-ghost" to={`/pests?crop=${crop.id}`}>عرض الآفات</Link>
                   </header>
                   <p>{crop.descriptionAr}</p>
                 </article>

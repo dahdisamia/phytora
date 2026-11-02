@@ -15,7 +15,10 @@
     },
     "nameAr": "قشرة النخيل البيضاء",
     "nameFr": "Cochenille blanche du palmier dattier",
-    "synonyms": ["Parlatoria blanchardi", "Parlatoria date scale"],
+    "synonyms": [
+      "Parlatoria blanchardi",
+      "Parlatoria date scale"
+    ],
     "descriptionAr": "حشرة قشرية دقيقة تصيب النخيل، وتلتصق بالسعف والعراجين والتمور. تتغذى بامتصاص العصارة وقد تسبب ضعف النمو وتشوه الثمار عند ارتفاع الأعداد. تُعد من الآفات التقليدية المعروفة في واحات النخيل الجزائرية، لكن الوضع المحلي التفصيلي في الوادي لم يُتحقق منه في هذه النسخة.",
     "descriptionFr": "Une cochenille de petite taille inféodée au palmier dattier, fixée sur les palmes, les régimes et les dattes. Elle se nourrit de sève et peut affaiblir la croissance et déprécier les fruits lorsque les populations augmentent. Elle est connue dans les oasis algériennes, mais son statut local détaillé à El Oued n'a pas été vérifié dans cette version.",
     "morphologyAr": "درع دقيقي بيضاوي أو مستطيل، أبيض إلى رمادي، قطره عادة أقل من 2 مم، ملتصق بسطح النبات. لا يتحرك عند لمسه. توجد الأنثى تحت الدرع، والذكر قد يكون مجنحاً.",
@@ -41,21 +44,71 @@
     "imageKey": "date-palm-scale",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-date-palm"],
-    "symptomIds": ["sym-scales", "sym-yellowing", "sym-sticky", "sym-sooty"],
-    "damageTypeIds": ["dmg-sap-feeding", "dmg-quality-loss"],
+    "cropIds": [
+      "crop-date-palm"
+    ],
+    "symptomIds": [
+      "sym-scales",
+      "sym-yellowing",
+      "sym-sticky",
+      "sym-sooty"
+    ],
+    "damageTypeIds": [
+      "dmg-sap-feeding",
+      "dmg-quality-loss"
+    ],
     "similarPestIds": [],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_fruit", "weight": 1 },
-      { "questionId": "q_organism", "optionId": "org_scale", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_scale", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_sticky", "weight": 1 },
-      { "questionId": "q_pattern", "optionId": "pat_sooty", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_under_2", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_grey", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_white_yellow", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_stationary", "weight": 2 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_fruit",
+        "weight": 1
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_scale",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_scale",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_sticky",
+        "weight": 1
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_sooty",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_under_2",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_grey",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_white_yellow",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_stationary",
+        "weight": 2
+      }
     ],
     "occurrence": [
       {
@@ -66,19 +119,35 @@
         "status": "reported",
         "noteAr": "مسجلة في دراسات جزائرية عن واحات بسكرة. لم يُتحقق في هذه النسخة من وضعها المحدد في ولاية الوادي، لذلك تبقى الثقة في التشخيص محدودة.",
         "noteFr": "Signalée dans des études algériennes sur les oasis de Biskra. Son statut spécifique à El Oued n'a pas été vérifié dans cette version ; la confiance diagnostique reste donc limitée.",
-        "sourceIds": ["src-biskra-parlbl", "src-biskra-parlbl-cabi", "src-eppo-parlbl"],
+        "sourceIds": [
+          "src-biskra-parlbl",
+          "src-biskra-parlbl-cabi",
+          "src-eppo-parlbl"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-dps-prevention", "rec-dps-monitoring", "rec-dps-cultural", "rec-dps-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-biskra-parlbl", "src-biskra-parlbl-cabi", "src-eppo-parlbl"],
+    "recommendationIds": [
+      "rec-dps-prevention",
+      "rec-dps-monitoring",
+      "rec-dps-cultural",
+      "rec-dps-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-biskra-parlbl",
+      "src-biskra-parlbl-cabi",
+      "src-eppo-parlbl"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Date palm scale",
+    "photoAvailable": false
   },
   {
     "id": "pest-date-moth",
@@ -96,7 +165,11 @@
     },
     "nameAr": "عثة التمر",
     "nameFr": "Pyrale des dattes",
-    "synonyms": ["Apomyelois ceratoniae", "Myelois ceratoniae", "carob moth"],
+    "synonyms": [
+      "Apomyelois ceratoniae",
+      "Myelois ceratoniae",
+      "carob moth"
+    ],
     "descriptionAr": "فراشة صغيرة تصيب التمور في البستان والمخزن. تحفر اليرقات داخل الثمرة وتتغذى عليها، ما يسبب ثقوباً وتعفناً وخسائر في الجودة. وُثقت تجارب جزائرية حول أثر التنظيف وتغطية العراجين على الإصابة.",
     "descriptionFr": "Un petit papillon qui infeste les dattes au verger et en stockage. Les larves creusent et se nourrissent à l'intérieur du fruit, causant trous, pourritures et pertes de qualité. Des essais algériens ont documenté l'effet du nettoyage et de l'ensachage des régimes sur l'infestation.",
     "morphologyAr": "فراشة صغيرة، عادة 1 إلى 2.5 سم باع الجناحين، ألوانها رمادية أو بنية باهتة. اليرقة أسطوانية وردية أو كريمية، وتترك نشارة وفضلات عند مدخل الثمرة.",
@@ -122,22 +195,76 @@
     "imageKey": "date-moth",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-date-palm"],
-    "symptomIds": ["sym-fruit-holes", "sym-frass", "sym-fruit-rot"],
-    "damageTypeIds": ["dmg-fruit-boring", "dmg-quality-loss", "dmg-storage-loss"],
+    "cropIds": [
+      "crop-date-palm"
+    ],
+    "symptomIds": [
+      "sym-fruit-holes",
+      "sym-frass",
+      "sym-fruit-rot"
+    ],
+    "damageTypeIds": [
+      "dmg-fruit-boring",
+      "dmg-quality-loss",
+      "dmg-storage-loss"
+    ],
     "similarPestIds": [],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_fruit", "weight": 3 },
-      { "questionId": "q_location", "optionId": "loc_storage", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_caterpillar", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_moth", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_holes_fruit", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_rot", "weight": 1 },
-      { "questionId": "q_pattern", "optionId": "pat_exit_hole", "weight": 2 },
-      { "questionId": "q_size", "optionId": "size_10_25", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_brown_black", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 },
-      { "questionId": "q_stages", "optionId": "stg_multiple", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_fruit",
+        "weight": 3
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_storage",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_caterpillar",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_moth",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_holes_fruit",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_rot",
+        "weight": 1
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_exit_hole",
+        "weight": 2
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_10_25",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_brown_black",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      },
+      {
+        "questionId": "q_stages",
+        "optionId": "stg_multiple",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -148,19 +275,30 @@
         "status": "reported",
         "noteAr": "مدروسة في بساتين نخيل جزائرية، مع تجارب منشورة حول التنظيف وتغطية العراجين. لم يُتحقق من الوضع المحلي المفصل في الوادي.",
         "noteFr": "Étudiée dans des palmeraies algériennes, avec des essais publiés sur le nettoyage et l'ensachage des régimes. Le statut local détaillé à El Oued n'a pas été vérifié.",
-        "sourceIds": ["src-algeria-date-bagging"],
+        "sourceIds": [
+          "src-algeria-date-bagging"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-dm-sanitation", "rec-dm-bagging", "rec-dm-monitoring", "rec-chemical-not-specified"],
-    "sourceIds": ["src-algeria-date-bagging"],
+    "recommendationIds": [
+      "rec-dm-sanitation",
+      "rec-dm-bagging",
+      "rec-dm-monitoring",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-algeria-date-bagging"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Carob moth",
+    "photoAvailable": false
   },
   {
     "id": "pest-tuta-absoluta",
@@ -178,7 +316,11 @@
     },
     "nameAr": "حافرة أوراق الطماطم",
     "nameFr": "Mineuse de la tomate",
-    "synonyms": ["Tuta absoluta", "Scrobipalpuloides absoluta", "tomato leafminer"],
+    "synonyms": [
+      "Tuta absoluta",
+      "Scrobipalpuloides absoluta",
+      "tomato leafminer"
+    ],
     "descriptionAr": "فراشة صغيرة تصيب الطماطم خصوصاً. تحفر اليرقات أنفاقاً في الأوراق والسيقان والثمار، وقد تسبب خسائر كبيرة في البيوت البلاستيكية. يوجد في قاعدة البيانات مصدر بحثي خاص ببيوت الوادي.",
     "descriptionFr": "Un petit papillon inféodé à la tomate. Les larves creusent des galeries dans les feuilles, les tiges et les fruits, pouvant causer des pertes importantes sous abri. La base contient une étude de recherche spécifique aux serres d'El Oued.",
     "morphologyAr": "فراشة صغيرة بنية أو فضية، باع جناحيها حوالي 1 سم. اليرقة صغيرة، خضراء أو وردية باهتة، ورأسها داكن. الأنفاق الورقية رفيعة وغير منتظمة.",
@@ -204,22 +346,78 @@
     "imageKey": "tuta-absoluta",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-tomato"],
-    "symptomIds": ["sym-leaf-mines", "sym-fruit-holes", "sym-yellowing"],
-    "damageTypeIds": ["dmg-leaf-mining", "dmg-fruit-boring", "dmg-quality-loss"],
-    "similarPestIds": ["pest-potato-tuber-moth"],
+    "cropIds": [
+      "crop-tomato"
+    ],
+    "symptomIds": [
+      "sym-leaf-mines",
+      "sym-fruit-holes",
+      "sym-yellowing"
+    ],
+    "damageTypeIds": [
+      "dmg-leaf-mining",
+      "dmg-fruit-boring",
+      "dmg-quality-loss"
+    ],
+    "similarPestIds": [
+      "pest-potato-tuber-moth"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_fruit", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_caterpillar", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_moth", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_mines", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_holes_fruit", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_tunnel", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_2_10", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_green", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 },
-      { "questionId": "q_stages", "optionId": "stg_multiple", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_fruit",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_caterpillar",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_moth",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_mines",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_holes_fruit",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_tunnel",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_2_10",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_green",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      },
+      {
+        "questionId": "q_stages",
+        "optionId": "stg_multiple",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -230,19 +428,36 @@
         "status": "confirmed",
         "noteAr": "مؤكدة في دراسة منشورة حول بيئة وتطور الحشرة في بيوت بلاستيكية بواحة الوادي (2024)، إضافة إلى تسجيل وطني في قاعدة EPPO. المصدر الإقليمي يخص البيوت المحمية وليس كل أنماط الزراعة.",
         "noteFr": "Confirmée par une étude publiée sur la bioécologie du ravageur sous serre dans l'oasis d'El Oued (2024), complétée par la présence nationale dans la base EPPO. La source régionale concerne les serres, pas tous les modes de culture.",
-        "sourceIds": ["src-eloued-tuta", "src-eppo-gnorab-dz", "src-eppo-gnorab"],
+        "sourceIds": [
+          "src-eloued-tuta",
+          "src-eppo-gnorab-dz",
+          "src-eppo-gnorab"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-tuta-prevention", "rec-tuta-monitoring", "rec-tuta-cultural", "rec-tuta-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eloued-tuta", "src-eppo-gnorab-dz", "src-eppo-gnorab", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-tuta-prevention",
+      "rec-tuta-monitoring",
+      "rec-tuta-cultural",
+      "rec-tuta-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eloued-tuta",
+      "src-eppo-gnorab-dz",
+      "src-eppo-gnorab",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Tomato leafminer",
+    "photoAvailable": false
   },
   {
     "id": "pest-whitefly",
@@ -260,7 +475,11 @@
     },
     "nameAr": "الذبابة البيضاء",
     "nameFr": "Aleurode du tabac",
-    "synonyms": ["Bemisia tabaci", "sweetpotato whitefly", "tobacco whitefly"],
+    "synonyms": [
+      "Bemisia tabaci",
+      "sweetpotato whitefly",
+      "tobacco whitefly"
+    ],
     "descriptionAr": "حشرة صغيرة ماصة للعصارة تصيب الطماطم ومحاصيل أخرى. تسبب إفرازات عسلية وعفناً أسود، وقد تنقل فيروسات نباتية. مسجلة في الجزائر وفق قاعدة EPPO.",
     "descriptionFr": "Petit insecte piqueur-suceur de la tomate et d'autres cultures. Il produit du miellat et de la fumagine et peut transmettre des virus. Sa présence en Algérie est enregistrée dans la base EPPO.",
     "morphologyAr": "البالغ بحجم صغير جداً (أقل من 2 مم)، أبيض أو مصفر باهت، يطير عند لمس النبات. الحوريات ثابتة على السطح السفلي للورقة، بيضاوية وشفافة أو صفراء.",
@@ -286,22 +505,80 @@
     "imageKey": "whitefly",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-tomato", "crop-potato"],
-    "symptomIds": ["sym-sticky", "sym-sooty", "sym-yellowing", "sym-leaf-curl"],
-    "damageTypeIds": ["dmg-sap-feeding", "dmg-virus-transmission", "dmg-quality-loss"],
-    "similarPestIds": ["pest-peach-aphid"],
+    "cropIds": [
+      "crop-tomato",
+      "crop-potato"
+    ],
+    "symptomIds": [
+      "sym-sticky",
+      "sym-sooty",
+      "sym-yellowing",
+      "sym-leaf-curl"
+    ],
+    "damageTypeIds": [
+      "dmg-sap-feeding",
+      "dmg-virus-transmission",
+      "dmg-quality-loss"
+    ],
+    "similarPestIds": [
+      "pest-peach-aphid"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_whitefly", "weight": 3 },
-      { "questionId": "q_organism", "optionId": "org_soft_insects", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_sticky", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_wilt", "weight": 1 },
-      { "questionId": "q_pattern", "optionId": "pat_sooty", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_curl", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_under_2", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_white_yellow", "weight": 2 },
-      { "questionId": "q_mobility", "optionId": "mob_fast", "weight": 2 },
-      { "questionId": "q_stages", "optionId": "stg_multiple", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_whitefly",
+        "weight": 3
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_soft_insects",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_sticky",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_wilt",
+        "weight": 1
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_sooty",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_curl",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_under_2",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_white_yellow",
+        "weight": 2
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_fast",
+        "weight": 2
+      },
+      {
+        "questionId": "q_stages",
+        "optionId": "stg_multiple",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -312,19 +589,32 @@
         "status": "confirmed",
         "noteAr": "مسجلة في الجزائر وفق قاعدة EPPO. السجل وطني، ولا يقدم هذه النسخة تفاصيل إقليمية محددة لولاية الوادي.",
         "noteFr": "Présente en Algérie selon la base EPPO. L'enregistrement est national ; cette version ne fournit pas de détail régional spécifique à El Oued.",
-        "sourceIds": ["src-eppo-bemita-dz"],
+        "sourceIds": [
+          "src-eppo-bemita-dz"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-wf-prevention", "rec-wf-monitoring", "rec-wf-cultural", "rec-wf-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-bemita-dz", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-wf-prevention",
+      "rec-wf-monitoring",
+      "rec-wf-cultural",
+      "rec-wf-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-bemita-dz",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Whitefly",
+    "photoAvailable": false
   },
   {
     "id": "pest-helicoverpa",
@@ -342,7 +632,11 @@
     },
     "nameAr": "فراشة جوز الطماطم",
     "nameFr": "Noctuelle de la tomate",
-    "synonyms": ["Helicoverpa armigera", "Heliothis armigera", "cotton bollworm"],
+    "synonyms": [
+      "Helicoverpa armigera",
+      "Heliothis armigera",
+      "cotton bollworm"
+    ],
     "descriptionAr": "فراشة متعددة العوائل، تصيب الطماطم وغيرها. تحفر اليرقات في الثمار وتتغذى على الأزهار والأوراق. مسجلة وواسعة الانتشار في الجزائر وفق EPPO.",
     "descriptionFr": "Un papillon polyphage qui attaque la tomate et d'autres cultures. Les chenilles forent les fruits et se nourrissent des fleurs et des feuilles. Il est présent et largement répandu en Algérie selon EPPO.",
     "morphologyAr": "باع الجناحين 3 إلى 4 سم، ألوان أمامية بنية أو رمادية مع خطوط، وخلفية فاتحة. اليرقة متغيرة اللون، أخضر أو بني، مع خطوط طولية وأحياناً نقاط داكنة.",
@@ -368,22 +662,80 @@
     "imageKey": "helicoverpa",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-tomato", "crop-potato"],
-    "symptomIds": ["sym-fruit-holes", "sym-frass", "sym-fruit-rot"],
-    "damageTypeIds": ["dmg-fruit-boring", "dmg-defoliation", "dmg-quality-loss"],
-    "similarPestIds": ["pest-tuta-absoluta", "pest-date-moth"],
+    "cropIds": [
+      "crop-tomato",
+      "crop-potato"
+    ],
+    "symptomIds": [
+      "sym-fruit-holes",
+      "sym-frass",
+      "sym-fruit-rot"
+    ],
+    "damageTypeIds": [
+      "dmg-fruit-boring",
+      "dmg-defoliation",
+      "dmg-quality-loss"
+    ],
+    "similarPestIds": [
+      "pest-tuta-absoluta",
+      "pest-date-moth"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_fruit", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 1 },
-      { "questionId": "q_organism", "optionId": "org_caterpillar", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_holes_fruit", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_holes_leaves", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_exit_hole", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_10_25", "weight": 2 },
-      { "questionId": "q_size", "optionId": "size_over_25", "weight": 1 },
-      { "questionId": "q_color", "optionId": "col_green", "weight": 1 },
-      { "questionId": "q_color", "optionId": "col_brown_black", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_fruit",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 1
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_caterpillar",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_holes_fruit",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_holes_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_exit_hole",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_10_25",
+        "weight": 2
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_over_25",
+        "weight": 1
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_green",
+        "weight": 1
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_brown_black",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -394,19 +746,31 @@
         "status": "confirmed",
         "noteAr": "مسجلة وواسعة الانتشار في الجزائر وفق قاعدة EPPO. لا تتوفر في هذه النسخة بيانات إقليمية محددة لولاية الوادي.",
         "noteFr": "Présente et largement répandue en Algérie selon la base EPPO. Cette version ne contient pas de données régionales spécifiques à El Oued.",
-        "sourceIds": ["src-eppo-heliar-dz"],
+        "sourceIds": [
+          "src-eppo-heliar-dz"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-hv-monitoring", "rec-hv-cultural", "rec-hv-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-heliar-dz", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-hv-monitoring",
+      "rec-hv-cultural",
+      "rec-hv-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-heliar-dz",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Cotton bollworm",
+    "photoAvailable": false
   },
   {
     "id": "pest-potato-tuber-moth",
@@ -424,7 +788,11 @@
     },
     "nameAr": "عثة درنات البطاطا",
     "nameFr": "Teigne de la pomme de terre",
-    "synonyms": ["Phthorimaea operculella", "potato tuber moth", "PTM"],
+    "synonyms": [
+      "Phthorimaea operculella",
+      "potato tuber moth",
+      "PTM"
+    ],
     "descriptionAr": "فراشة صغيرة تصيب البطاطا في الحقل والمخزن. تحفر اليرقات أنفاقاً في الأوراق والدرنات، ما يسبب خسائر في الإنتاج والتخزين. مسجلة وواسعة الانتشار في الجزائر وفق EPPO.",
     "descriptionFr": "Un petit papillon qui attaque la pomme de terre au champ et en stockage. Les larves creusent des galeries dans les feuilles et les tubercules, causant des pertes de production et de conservation. Elle est présente et largement répandue en Algérie selon EPPO.",
     "morphologyAr": "فراشة صغيرة رمادية أو بنية، باع جناحيها حوالي 1 سم. اليرقة صغيرة، رمادية أو خضراء باهتة، وتترك نشارة عند مدخل النفق في الدرنة.",
@@ -450,22 +818,79 @@
     "imageKey": "potato-tuber-moth",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-potato"],
-    "symptomIds": ["sym-leaf-mines", "sym-tunnels", "sym-frass", "sym-tuber-rot"],
-    "damageTypeIds": ["dmg-leaf-mining", "dmg-tuber-damage", "dmg-storage-loss"],
-    "similarPestIds": ["pest-tuta-absoluta"],
+    "cropIds": [
+      "crop-potato"
+    ],
+    "symptomIds": [
+      "sym-leaf-mines",
+      "sym-tunnels",
+      "sym-frass",
+      "sym-tuber-rot"
+    ],
+    "damageTypeIds": [
+      "dmg-leaf-mining",
+      "dmg-tuber-damage",
+      "dmg-storage-loss"
+    ],
+    "similarPestIds": [
+      "pest-tuta-absoluta"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_roots_tubers", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_storage", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_caterpillar", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_moth", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_mines", "weight": 3 },
-      { "questionId": "q_pattern", "optionId": "pat_tunnel", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_exit_hole", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_2_10", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_brown_black", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_roots_tubers",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_storage",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_caterpillar",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_moth",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_mines",
+        "weight": 3
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_tunnel",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_exit_hole",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_2_10",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_brown_black",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -476,19 +901,35 @@
         "status": "confirmed",
         "noteAr": "مسجلة وواسعة الانتشار في الجزائر وفق قاعدة EPPO. لا تتوفر في هذه النسخة بيانات إقليمية محددة لولاية الوادي.",
         "noteFr": "Présente et largement répandue en Algérie selon la base EPPO. Cette version ne contient pas de données régionales spécifiques à El Oued.",
-        "sourceIds": ["src-eppo-phtoop-dz", "src-eppo-phtoop"],
+        "sourceIds": [
+          "src-eppo-phtoop-dz",
+          "src-eppo-phtoop"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-ptm-prevention", "rec-ptm-monitoring", "rec-ptm-cultural", "rec-ptm-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-phtoop-dz", "src-eppo-phtoop", "src-cip-ptm", "src-ucipm-potato"],
+    "recommendationIds": [
+      "rec-ptm-prevention",
+      "rec-ptm-monitoring",
+      "rec-ptm-cultural",
+      "rec-ptm-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-phtoop-dz",
+      "src-eppo-phtoop",
+      "src-cip-ptm",
+      "src-ucipm-potato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Potato tuber moth",
+    "photoAvailable": false
   },
   {
     "id": "pest-peach-aphid",
@@ -506,7 +947,10 @@
     },
     "nameAr": "منّ الخوخ الأخضر",
     "nameFr": "Puceron vert du pêcher",
-    "synonyms": ["Myzus persicae", "green peach aphid"],
+    "synonyms": [
+      "Myzus persicae",
+      "green peach aphid"
+    ],
     "descriptionAr": "منّ صغير متعدد العوائل، يصيب البطاطا والطماطم وغيرها. يتغذى بامتصاص العصارة، يفرز العسل، وقد ينقل فيروسات. الوضع الجزائري التفصيلي لم يُتحقق منه في هذه النسخة.",
     "descriptionFr": "Un puceron polyphage qui attaque la pomme de terre, la tomate et d'autres cultures. Il prélève la sève, produit du miellat et peut transmettre des virus. Le statut détaillé en Algérie n'a pas été vérifié dans cette version.",
     "morphologyAr": "أفراد صغيرة (غالباً 1 إلى 3 مم)، خضراء أو صفراء أو وردية، ذات جسم طري. توجد في مستعمرات على القمم النامية والسطح السفلي للأوراق، وقد تظهر أفراد مجنحة.",
@@ -532,22 +976,80 @@
     "imageKey": "peach-aphid",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-potato", "crop-tomato"],
-    "symptomIds": ["sym-sticky", "sym-leaf-curl", "sym-yellowing", "sym-sooty"],
-    "damageTypeIds": ["dmg-sap-feeding", "dmg-virus-transmission", "dmg-quality-loss"],
-    "similarPestIds": ["pest-whitefly"],
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato"
+    ],
+    "symptomIds": [
+      "sym-sticky",
+      "sym-leaf-curl",
+      "sym-yellowing",
+      "sym-sooty"
+    ],
+    "damageTypeIds": [
+      "dmg-sap-feeding",
+      "dmg-virus-transmission",
+      "dmg-quality-loss"
+    ],
+    "similarPestIds": [
+      "pest-whitefly"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_soft_insects", "weight": 3 },
-      { "questionId": "q_organism", "optionId": "org_mite", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_sticky", "weight": 2 },
-      { "questionId": "q_damage", "optionId": "dmg_wilt", "weight": 1 },
-      { "questionId": "q_pattern", "optionId": "pat_curl", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_sooty", "weight": 1 },
-      { "questionId": "q_size", "optionId": "size_under_2", "weight": 2 },
-      { "questionId": "q_color", "optionId": "col_green", "weight": 2 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 },
-      { "questionId": "q_stages", "optionId": "stg_multiple", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_soft_insects",
+        "weight": 3
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_mite",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_sticky",
+        "weight": 2
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_wilt",
+        "weight": 1
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_curl",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_sooty",
+        "weight": 1
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_under_2",
+        "weight": 2
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_green",
+        "weight": 2
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      },
+      {
+        "questionId": "q_stages",
+        "optionId": "stg_multiple",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -558,19 +1060,33 @@
         "status": "unverified",
         "noteAr": "اطُّلعت بطاقة EPPO العامة، لكن لم يُتحقق في هذه النسخة من سجل توزيع جزائري محدد لهذا النوع. اعتبر النتيجة أولية واطلب تأكيداً محلياً.",
         "noteFr": "La fiche générale EPPO a été consultée, mais cette version ne confirme pas d'enregistrement de distribution algérien spécifique à cette espèce. Considérer le résultat comme préliminaire et demander une confirmation locale.",
-        "sourceIds": ["src-eppo-myzupe"],
+        "sourceIds": [
+          "src-eppo-myzupe"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-aphid-prevention", "rec-aphid-monitoring", "rec-aphid-cultural", "rec-aphid-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-myzupe", "src-ucipm-potato", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-aphid-prevention",
+      "rec-aphid-monitoring",
+      "rec-aphid-cultural",
+      "rec-aphid-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-myzupe",
+      "src-ucipm-potato",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Green peach aphid",
+    "photoAvailable": false
   },
   {
     "id": "pest-early-blight",
@@ -588,7 +1104,10 @@
     },
     "nameAr": "اللفحة المبكرة",
     "nameFr": "Alternariose de la pomme de terre et de la tomate",
-    "synonyms": ["Alternaria solani", "early blight"],
+    "synonyms": [
+      "Alternaria solani",
+      "early blight"
+    ],
     "descriptionAr": "مرض فطري يصيب البطاطا والطماطم، ويظهر على الأوراق السفلية عادة. يتميز ببقع ذات حلقات متداخلة. الظروف الدافئة والرطبة تساعد على انتشاره. السجل الجزائري المحدد لهذا المرض لم يُتحقق منه في هذه النسخة.",
     "descriptionFr": "Une maladie fongique de la pomme de terre et de la tomate, apparaissant souvent sur les feuilles basses. Elle se caractérise par des taches à cercles concentriques. Les conditions chaudes et humides favorisent sa propagation. L'enregistrement algérien spécifique n'a pas été vérifié dans cette version.",
     "morphologyAr": "بقع بنية إلى داكنة، غالباً بحلقات متداخلة تشبه الهدف، ويحيط بها هالة صفراء. قد تتحد البقع وتسبب جفاف الورقة. على الدرنات تظهر بقع غائرة داكنة.",
@@ -614,20 +1133,70 @@
     "imageKey": "early-blight",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-potato", "crop-tomato"],
-    "symptomIds": ["sym-leaf-spots", "sym-concentric", "sym-yellowing", "sym-tuber-rot"],
-    "damageTypeIds": ["dmg-foliar-lesions", "dmg-defoliation", "dmg-quality-loss"],
-    "similarPestIds": ["pest-late-blight"],
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato"
+    ],
+    "symptomIds": [
+      "sym-leaf-spots",
+      "sym-concentric",
+      "sym-yellowing",
+      "sym-tuber-rot"
+    ],
+    "damageTypeIds": [
+      "dmg-foliar-lesions",
+      "dmg-defoliation",
+      "dmg-quality-loss"
+    ],
+    "similarPestIds": [
+      "pest-late-blight"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_fungus", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_none", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_lesions", "weight": 3 },
-      { "questionId": "q_pattern", "optionId": "pat_concentric", "weight": 3 },
-      { "questionId": "q_size", "optionId": "size_2_10", "weight": 1 },
-      { "questionId": "q_color", "optionId": "col_brown_black", "weight": 2 },
-      { "questionId": "q_mobility", "optionId": "mob_not_seen", "weight": 2 },
-      { "questionId": "q_mobility", "optionId": "mob_stationary", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_fungus",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_none",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_lesions",
+        "weight": 3
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_concentric",
+        "weight": 3
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_2_10",
+        "weight": 1
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_brown_black",
+        "weight": 2
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_not_seen",
+        "weight": 2
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_stationary",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -638,19 +1207,34 @@
         "status": "unverified",
         "noteAr": "مرض معروف على البطاطا والطماطم، لكن لم يُتحقق في هذه النسخة من مصدر جزائري محدد يوثق توزيعه في الوادي. النتيجة أولية وتحتاج تأكيداً حقلياً.",
         "noteFr": "Maladie connue de la pomme de terre et de la tomate, mais cette version ne dispose pas d'une source algérienne spécifique documentant sa distribution à El Oued. Le résultat est préliminaire et nécessite une confirmation au champ.",
-        "sourceIds": ["src-eppo-alteso", "src-ucipm-potato", "src-ucipm-tomato"],
+        "sourceIds": [
+          "src-eppo-alteso",
+          "src-ucipm-potato",
+          "src-ucipm-tomato"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-eb-prevention", "rec-eb-monitoring", "rec-eb-cultural", "rec-eb-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-alteso", "src-ucipm-potato", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-eb-prevention",
+      "rec-eb-monitoring",
+      "rec-eb-cultural",
+      "rec-eb-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-alteso",
+      "src-ucipm-potato",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Early blight"
   },
   {
     "id": "pest-late-blight",
@@ -668,7 +1252,10 @@
     },
     "nameAr": "اللفحة المتأخرة",
     "nameFr": "Mildiou de la pomme de terre et de la tomate",
-    "synonyms": ["Phytophthora infestans", "late blight"],
+    "synonyms": [
+      "Phytophthora infestans",
+      "late blight"
+    ],
     "descriptionAr": "مرض شبيه بالفطريات سريع الانتشار يصيب البطاطا والطماطم. يظهر كبقع مائية داكنة وقد يدمر الحقل في ظروف باردة ورطبة. السجل الجزائري المحدد لم يُتحقق منه في هذه النسخة.",
     "descriptionFr": "Une maladie pseudo-fongique à propagation rapide de la pomme de terre et de la tomate. Elle se manifeste par des taches aqueuses sombres et peut dévaster la parcelle par temps frais et humide. L'enregistrement algérien spécifique n'a pas été vérifié dans cette version.",
     "morphologyAr": "بقع خضراء داكنة أو بنية مائية، بلا حلقات واضحة، وقد يظهر نمو أبيض زغبي على السطح السفلي في الرطوبة العالية. على الدرنات تعفن بني محمر.",
@@ -694,22 +1281,80 @@
     "imageKey": "late-blight",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-potato", "crop-tomato"],
-    "symptomIds": ["sym-leaf-spots", "sym-water-soaked", "sym-white-growth", "sym-tuber-rot"],
-    "damageTypeIds": ["dmg-foliar-lesions", "dmg-defoliation", "dmg-storage-loss"],
-    "similarPestIds": ["pest-early-blight"],
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato"
+    ],
+    "symptomIds": [
+      "sym-leaf-spots",
+      "sym-water-soaked",
+      "sym-white-growth",
+      "sym-tuber-rot"
+    ],
+    "damageTypeIds": [
+      "dmg-foliar-lesions",
+      "dmg-defoliation",
+      "dmg-storage-loss"
+    ],
+    "similarPestIds": [
+      "pest-early-blight"
+    ],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_leaves", "weight": 2 },
-      { "questionId": "q_location", "optionId": "loc_whole", "weight": 1 },
-      { "questionId": "q_organism", "optionId": "org_fungus", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_none", "weight": 1 },
-      { "questionId": "q_damage", "optionId": "dmg_lesions", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_rot", "weight": 2 },
-      { "questionId": "q_damage", "optionId": "dmg_wilt", "weight": 1 },
-      { "questionId": "q_pattern", "optionId": "pat_watersoaked", "weight": 3 },
-      { "questionId": "q_size", "optionId": "size_10_25", "weight": 1 },
-      { "questionId": "q_color", "optionId": "col_brown_black", "weight": 1 },
-      { "questionId": "q_mobility", "optionId": "mob_not_seen", "weight": 2 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_leaves",
+        "weight": 2
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_whole",
+        "weight": 1
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_fungus",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_none",
+        "weight": 1
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_lesions",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_rot",
+        "weight": 2
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_wilt",
+        "weight": 1
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_watersoaked",
+        "weight": 3
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_10_25",
+        "weight": 1
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_brown_black",
+        "weight": 1
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_not_seen",
+        "weight": 2
+      }
     ],
     "occurrence": [
       {
@@ -720,19 +1365,34 @@
         "status": "unverified",
         "noteAr": "مرض معروف على البطاطا والطماطم، لكن لم يُتحقق في هذه النسخة من مصدر جزائري محدد يوثق توزيعه في الوادي. النتيجة أولية وتحتاج تأكيداً حقلياً.",
         "noteFr": "Maladie connue de la pomme de terre et de la tomate, mais cette version ne dispose pas d'une source algérienne spécifique documentant sa distribution à El Oued. Le résultat est préliminaire et nécessite une confirmation au champ.",
-        "sourceIds": ["src-eppo-phytin", "src-ucipm-potato", "src-ucipm-tomato"],
+        "sourceIds": [
+          "src-eppo-phytin",
+          "src-ucipm-potato",
+          "src-ucipm-tomato"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-lb-prevention", "rec-lb-monitoring", "rec-lb-cultural", "rec-lb-biological", "rec-chemical-not-specified"],
-    "sourceIds": ["src-eppo-phytin", "src-ucipm-potato", "src-ucipm-tomato"],
+    "recommendationIds": [
+      "rec-lb-prevention",
+      "rec-lb-monitoring",
+      "rec-lb-cultural",
+      "rec-lb-biological",
+      "rec-chemical-not-specified"
+    ],
+    "sourceIds": [
+      "src-eppo-phytin",
+      "src-ucipm-potato",
+      "src-ucipm-tomato"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Late blight"
   },
   {
     "id": "pest-red-palm-weevil",
@@ -750,7 +1410,11 @@
     },
     "nameAr": "سوسة النخيل الحمراء (قائمة مراقبة حجرية)",
     "nameFr": "Charançon rouge des palmiers (liste de surveillance)",
-    "synonyms": ["Rhynchophorus ferrugineus", "red palm weevil", "RPW"],
+    "synonyms": [
+      "Rhynchophorus ferrugineus",
+      "red palm weevil",
+      "RPW"
+    ],
     "descriptionAr": "آفة حجرية خطيرة على النخيل. وفق تحديث EPPO بتاريخ 2026-03-04، تُصنف الجزائر كـ«غائبة، مؤكدة بالمسح». لذلك لا تُعرض كآفة محتملة في التشخيص، بل كسجل مراقبة حجرية يجب الإبلاغ الفوري عن أي اشتباه فيه.",
     "descriptionFr": "Ravageur de quarantaine majeur du palmier. Selon la mise à jour EPPO du 2026-03-04, l'Algérie est classée « absent, confirmé par prospection ». Il n'est donc pas proposé comme candidat diagnostique, mais figure comme fiche de surveillance de quarantaine avec obligation de signalement immédiat en cas de suspicion.",
     "morphologyAr": "خنفساء كبيرة (2 إلى 4 سم)، بنية محمرة مع بقع سوداء، وخرطوم طويل. اليرقة كبيرة، كريمية، بلا أرجل، وتعيش داخل جذع النخلة حيث تصنع أنفاقاً.",
@@ -776,19 +1440,58 @@
     "imageKey": "red-palm-weevil",
     "beneficial": false,
     "status": "published",
-    "cropIds": ["crop-date-palm"],
-    "symptomIds": ["sym-tunnels", "sym-wilting"],
-    "damageTypeIds": ["dmg-trunk-boring"],
+    "cropIds": [
+      "crop-date-palm"
+    ],
+    "symptomIds": [
+      "sym-tunnels",
+      "sym-wilting"
+    ],
+    "damageTypeIds": [
+      "dmg-trunk-boring"
+    ],
     "similarPestIds": [],
     "traits": [
-      { "questionId": "q_location", "optionId": "loc_stems", "weight": 3 },
-      { "questionId": "q_location", "optionId": "loc_whole", "weight": 2 },
-      { "questionId": "q_organism", "optionId": "org_beetle", "weight": 3 },
-      { "questionId": "q_damage", "optionId": "dmg_wilt", "weight": 2 },
-      { "questionId": "q_pattern", "optionId": "pat_tunnel", "weight": 3 },
-      { "questionId": "q_size", "optionId": "size_over_25", "weight": 3 },
-      { "questionId": "q_color", "optionId": "col_red_orange", "weight": 2 },
-      { "questionId": "q_mobility", "optionId": "mob_slow", "weight": 1 }
+      {
+        "questionId": "q_location",
+        "optionId": "loc_stems",
+        "weight": 3
+      },
+      {
+        "questionId": "q_location",
+        "optionId": "loc_whole",
+        "weight": 2
+      },
+      {
+        "questionId": "q_organism",
+        "optionId": "org_beetle",
+        "weight": 3
+      },
+      {
+        "questionId": "q_damage",
+        "optionId": "dmg_wilt",
+        "weight": 2
+      },
+      {
+        "questionId": "q_pattern",
+        "optionId": "pat_tunnel",
+        "weight": 3
+      },
+      {
+        "questionId": "q_size",
+        "optionId": "size_over_25",
+        "weight": 3
+      },
+      {
+        "questionId": "q_color",
+        "optionId": "col_red_orange",
+        "weight": 2
+      },
+      {
+        "questionId": "q_mobility",
+        "optionId": "mob_slow",
+        "weight": 1
+      }
     ],
     "occurrence": [
       {
@@ -799,19 +1502,28 @@
         "status": "absent",
         "noteAr": "الجزائر: غائبة، مؤكدة بالمسح وفق EPPO (آخر تحديث 2026-03-04). السجل للمراقبة الحجرية فقط ولا يدخل في قائمة التشخيص.",
         "noteFr": "Algérie : absente, confirmée par prospection selon EPPO (dernière mise à jour 2026-03-04). Fiche de surveillance de quarantaine uniquement, exclue du diagnostic.",
-        "sourceIds": ["src-eppo-rhycfe"],
+        "sourceIds": [
+          "src-eppo-rhycfe"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
-    "recommendationIds": ["rec-rpw-prevention", "rec-rpw-report"],
-    "sourceIds": ["src-eppo-rhycfe"],
+    "recommendationIds": [
+      "rec-rpw-prevention",
+      "rec-rpw-report"
+    ],
+    "sourceIds": [
+      "src-eppo-rhycfe"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Red palm weevil",
+    "photoAvailable": false
   },
   {
     "id": "pest-ladybird",
@@ -829,7 +1541,10 @@
     },
     "nameAr": "الدعسوقة ذات السبع نقاط",
     "nameFr": "Coccinelle à sept points",
-    "synonyms": ["Coccinella septempunctata", "seven-spotted ladybird"],
+    "synonyms": [
+      "Coccinella septempunctata",
+      "seven-spotted ladybird"
+    ],
     "descriptionAr": "خنفساء مفترسة شائعة، تتغذى على المنّ والحشرات الصغيرة. وجودها مؤشر مفيد في برامج المكافحة المتكاملة. لا تُعامل كآفة.",
     "descriptionFr": "Une coccinelle prédatrice commune qui se nourrit de pucerons et de petits insectes. Sa présence est utile en lutte intégrée. Elle n'est pas considérée comme un ravageur.",
     "morphologyAr": "جسم بيضاوي محدب، أحمر أو برتقالي مع سبع نقاط سوداء. اليرقة رمادية أو سوداء مع بقع برتقالية، وتختلف عن يرقات الآفات.",
@@ -855,7 +1570,11 @@
     "imageKey": "ladybird",
     "beneficial": true,
     "status": "published",
-    "cropIds": ["crop-potato", "crop-tomato", "crop-date-palm"],
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato",
+      "crop-date-palm"
+    ],
     "symptomIds": [],
     "damageTypeIds": [],
     "similarPestIds": [],
@@ -869,19 +1588,25 @@
         "status": "confirmed",
         "noteAr": "نوع شائع ومنتشر عالمياً، ويُستخدم كمؤشر على وجود أعداء طبيعية. لم تُجرَ في هذه النسخة مسوحات محلية للوادي.",
         "noteFr": "Espèce commune et largement répandue, utilisée comme indicateur d'auxiliaires. Aucun inventaire local d'El Oued n'a été réalisé dans cette version.",
-        "sourceIds": ["src-ucipm-natural-enemies"],
+        "sourceIds": [
+          "src-ucipm-natural-enemies"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
     "recommendationIds": [],
-    "sourceIds": ["src-ucipm-natural-enemies"],
+    "sourceIds": [
+      "src-ucipm-natural-enemies"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Seven-spot ladybird",
+    "photoAvailable": false
   },
   {
     "id": "pest-lacewing",
@@ -899,7 +1624,10 @@
     },
     "nameAr": "أسد المنّ الأخضر",
     "nameFr": "Chrysope verte",
-    "synonyms": ["Chrysoperla carnea", "green lacewing"],
+    "synonyms": [
+      "Chrysoperla carnea",
+      "green lacewing"
+    ],
     "descriptionAr": "حشرة مفترسة، تتغذى يرقاتها على المنّ والحلم والحشرات الصغيرة. تُعتبر من الأعداء الطبيعية المفيدة في المحاصيل الحقلية والمحمية. لا تُعامل كآفة.",
     "descriptionFr": "Un insecte prédateur dont les larves consomment pucerons, acariens et petits insectes. C'est un auxiliaire utile en plein champ et sous abri. Elle n'est pas considérée comme un ravageur.",
     "morphologyAr": "حشرة خضراء فاتحة بأجنحة شبكية شفافة، وعيون ذهبية. اليرقة مفترسة نشطة، أما البالغة فقد تتغذى على الرحيق وحبوب اللقاح.",
@@ -925,7 +1653,11 @@
     "imageKey": "lacewing",
     "beneficial": true,
     "status": "published",
-    "cropIds": ["crop-potato", "crop-tomato", "crop-date-palm"],
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato",
+      "crop-date-palm"
+    ],
     "symptomIds": [],
     "damageTypeIds": [],
     "similarPestIds": [],
@@ -939,18 +1671,24 @@
         "status": "confirmed",
         "noteAr": "نوع مفيد شائع، يُستخدم كمؤشر على وجود أعداء طبيعية. لم تُجرَ في هذه النسخة مسوحات محلية للوادي.",
         "noteFr": "Auxiliaire commun, utilisé comme indicateur de la présence d'ennemis naturels. Aucun inventaire local d'El Oued n'a été réalisé dans cette version.",
-        "sourceIds": ["src-ucipm-natural-enemies"],
+        "sourceIds": [
+          "src-ucipm-natural-enemies"
+        ],
         "lastVerifiedAt": "2026-10-23"
       }
     ],
     "recommendationIds": [],
-    "sourceIds": ["src-ucipm-natural-enemies"],
+    "sourceIds": [
+      "src-ucipm-natural-enemies"
+    ],
     "review": {
       "reviewerName": null,
       "status": "unreviewed",
       "lastVerifiedAt": "2026-10-23"
     },
     "contentVersion": 1,
-    "updatedAt": "2026-10-23"
+    "updatedAt": "2026-10-23",
+    "nameEn": "Green lacewing",
+    "photoAvailable": false
   }
 ]

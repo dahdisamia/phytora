@@ -19,6 +19,11 @@ export function Diagnosis() {
   const [crops, setCrops] = useState<{ id: string; nameAr: string; category: string }[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
+  useEffect(() => {
+    const pestParam = params.get("pest");
+    if (pestParam) setSuspected(pestParam);
+  }, [params]);
+
   const diagnosisCategories = [
     { id: "cereals", nameAr: "الحبوب" },
     { id: "vegetables", nameAr: "الخضروات" },

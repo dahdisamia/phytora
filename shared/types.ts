@@ -151,6 +151,8 @@ export interface Pest {
   };
   nameAr: string;
   nameFr: string;
+  nameEn?: string;
+  photoAvailable?: boolean;
   synonyms: string[];
   descriptionAr: string;
   descriptionFr: string;

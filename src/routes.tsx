@@ -9,6 +9,7 @@ const Experts = lazy(() => import("./pages/Experts").then((m) => ({ default: m.E
 const Cases = lazy(() => import("./pages/Cases").then((m) => ({ default: m.Cases })));
 const Offline = lazy(() => import("./pages/Offline").then((m) => ({ default: m.Offline })));
 const PestDetail = lazy(() => import("./pages/PestDetail").then((m) => ({ default: m.PestDetail })));
+const InsectPests = lazy(() => import("./pages/InsectPests").then((m) => ({ default: m.InsectPests })));
 
 export function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ export function AppRoutes() {
       <Route path="/diagnosis" element={<Diagnosis />} />
       <Route path="/knowledge" element={<KnowledgeList />} />
       <Route path="/knowledge/:slug" element={<PestDetail />} />
+      <Route path="/pests" element={<InsectPests />} />
       <Route path="/experts" element={<Experts />} />
       <Route path="/cases" element={<Cases />} />
       <Route path="/offline" element={<Offline />} />
