@@ -61,6 +61,7 @@ export interface Crop {
   slug: string;
   nameAr: string;
   nameFr: string;
+  nameEn: string;
   scientificName: string;
   category: string;
   descriptionAr: string;

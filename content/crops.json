@@ -9,14 +9,41 @@
     "descriptionAr": "زراعة استراتيجية في الوادي، وتشمل أصنافاً مثل دقلة نور. تتركّز الإصابات عادة في السعف والعراجين والتمور.",
     "descriptionFr": "Culture emblématique d'El Oued, notamment la Deglet Nour. Les problèmes se concentrent souvent sur les palmes, les régimes et les dattes.",
     "imageKey": "date-palm",
-    "regionIds": ["dz-eloued"],
+    "regionIds": [
+      "dz-eloued"
+    ],
     "lastUpdated": "2026-10-23",
     "stages": [
-      { "id": "date-palm-vegetative", "code": "vegetative", "nameAr": "نمو خضري", "nameFr": "Croissance végétative", "order": 1 },
-      { "id": "date-palm-flowering", "code": "flowering", "nameAr": "الإزهار والتلقيح", "nameFr": "Floraison et pollinisation", "order": 2 },
-      { "id": "date-palm-fruit-set", "code": "fruit_set", "nameAr": "عقد الثمار", "nameFr": "Nouaison", "order": 3 },
-      { "id": "date-palm-ripening", "code": "ripening", "nameAr": "النضج والحصاد", "nameFr": "Maturation et récolte", "order": 4 }
-    ]
+      {
+        "id": "date-palm-vegetative",
+        "code": "vegetative",
+        "nameAr": "نمو خضري",
+        "nameFr": "Croissance végétative",
+        "order": 1
+      },
+      {
+        "id": "date-palm-flowering",
+        "code": "flowering",
+        "nameAr": "الإزهار والتلقيح",
+        "nameFr": "Floraison et pollinisation",
+        "order": 2
+      },
+      {
+        "id": "date-palm-fruit-set",
+        "code": "fruit_set",
+        "nameAr": "عقد الثمار",
+        "nameFr": "Nouaison",
+        "order": 3
+      },
+      {
+        "id": "date-palm-ripening",
+        "code": "ripening",
+        "nameAr": "النضج والحصاد",
+        "nameFr": "Maturation et récolte",
+        "order": 4
+      }
+    ],
+    "nameEn": "Date palm"
   },
   {
     "id": "crop-potato",
@@ -28,16 +55,55 @@
     "descriptionAr": "من أهم محاصيل الوادي، وتُزرع في دورات متعددة. راقب الدرنات والأوراق خاصة في الطقس الرطب أو أثناء التخزين.",
     "descriptionFr": "Une des principales cultures d'El Oued, conduite en plusieurs cycles. Surveillez les tubercules et le feuillage, surtout par temps humide ou au stockage.",
     "imageKey": "potato",
-    "regionIds": ["dz-eloued"],
+    "regionIds": [
+      "dz-eloued"
+    ],
     "lastUpdated": "2026-10-23",
     "stages": [
-      { "id": "potato-planting", "code": "planting", "nameAr": "الغرس", "nameFr": "Plantation", "order": 1 },
-      { "id": "potato-vegetative", "code": "vegetative", "nameAr": "النمو الخضري", "nameFr": "Croissance végétative", "order": 2 },
-      { "id": "potato-tuber-init", "code": "tuber_initiation", "nameAr": "بداية تكوين الدرنات", "nameFr": "Initiation des tubercules", "order": 3 },
-      { "id": "potato-bulking", "code": "bulking", "nameAr": "تضخم الدرنات", "nameFr": "Grossissement des tubercules", "order": 4 },
-      { "id": "potato-harvest", "code": "harvest", "nameAr": "الحصاد", "nameFr": "Récolte", "order": 5 },
-      { "id": "potato-storage", "code": "storage", "nameAr": "التخزين", "nameFr": "Stockage", "order": 6 }
-    ]
+      {
+        "id": "potato-planting",
+        "code": "planting",
+        "nameAr": "الغرس",
+        "nameFr": "Plantation",
+        "order": 1
+      },
+      {
+        "id": "potato-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو الخضري",
+        "nameFr": "Croissance végétative",
+        "order": 2
+      },
+      {
+        "id": "potato-tuber-init",
+        "code": "tuber_initiation",
+        "nameAr": "بداية تكوين الدرنات",
+        "nameFr": "Initiation des tubercules",
+        "order": 3
+      },
+      {
+        "id": "potato-bulking",
+        "code": "bulking",
+        "nameAr": "تضخم الدرنات",
+        "nameFr": "Grossissement des tubercules",
+        "order": 4
+      },
+      {
+        "id": "potato-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 5
+      },
+      {
+        "id": "potato-storage",
+        "code": "storage",
+        "nameAr": "التخزين",
+        "nameFr": "Stockage",
+        "order": 6
+      }
+    ],
+    "nameEn": "Potato"
   },
   {
     "id": "crop-tomato",
@@ -49,14 +115,691 @@
     "descriptionAr": "تُزرع في الحقل والبيوت البلاستيكية. التعرّف المبكر على حافرات الأوراق والحشرات الماصة يقلل الخسائر.",
     "descriptionFr": "Cultivée en plein champ et sous abri. Une détection précoce des mineuses et des insectes piqueurs-suceurs réduit les pertes.",
     "imageKey": "tomato",
-    "regionIds": ["dz-eloued"],
+    "regionIds": [
+      "dz-eloued"
+    ],
     "lastUpdated": "2026-10-23",
     "stages": [
-      { "id": "tomato-seedling", "code": "seedling", "nameAr": "الشتلة", "nameFr": "Plantule", "order": 1 },
-      { "id": "tomato-vegetative", "code": "vegetative", "nameAr": "النمو الخضري", "nameFr": "Croissance végétative", "order": 2 },
-      { "id": "tomato-flowering", "code": "flowering", "nameAr": "الإزهار", "nameFr": "Floraison", "order": 3 },
-      { "id": "tomato-fruit", "code": "fruit_set", "nameAr": "عقد الثمار", "nameFr": "Nouaison", "order": 4 },
-      { "id": "tomato-harvest", "code": "harvest", "nameAr": "الحصاد", "nameFr": "Récolte", "order": 5 }
+      {
+        "id": "tomato-seedling",
+        "code": "seedling",
+        "nameAr": "الشتلة",
+        "nameFr": "Plantule",
+        "order": 1
+      },
+      {
+        "id": "tomato-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو الخضري",
+        "nameFr": "Croissance végétative",
+        "order": 2
+      },
+      {
+        "id": "tomato-flowering",
+        "code": "flowering",
+        "nameAr": "الإزهار",
+        "nameFr": "Floraison",
+        "order": 3
+      },
+      {
+        "id": "tomato-fruit",
+        "code": "fruit_set",
+        "nameAr": "عقد الثمار",
+        "nameFr": "Nouaison",
+        "order": 4
+      },
+      {
+        "id": "tomato-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 5
+      }
+    ],
+    "nameEn": "Tomato"
+  },
+  {
+    "id": "crop-wheat",
+    "slug": "wheat",
+    "nameAr": "القمح",
+    "nameFr": "Blé",
+    "nameEn": "Blé",
+    "scientificName": "Triticum durum / Triticum aestivum",
+    "category": "cereals",
+    "descriptionAr": "محصول حبوب مهم في ولاية الوادي، يُزرع في مواسم محددة ويتطلب مراقبة الأمراض الفطرية والآفات.",
+    "descriptionFr": "Céréale importante dans la wilaya d’El Oued, cultivée selon des calendriers précis; surveillance des maladies fongiques et ravageurs.",
+    "imageKey": "wheat",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "wheat-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "wheat-tillering",
+        "code": "tillering",
+        "nameAr": "التشعيب",
+        "nameFr": "Tallage",
+        "order": 2
+      },
+      {
+        "id": "wheat-heading",
+        "code": "heading",
+        "nameAr": "السنبلة",
+        "nameFr": "Épiaison",
+        "order": 3
+      },
+      {
+        "id": "wheat-ripening",
+        "code": "ripening",
+        "nameAr": "النضج",
+        "nameFr": "Maturation",
+        "order": 4
+      },
+      {
+        "id": "wheat-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "crop-barley",
+    "slug": "barley",
+    "nameAr": "الشعير",
+    "nameFr": "Orge",
+    "nameEn": "Orge",
+    "scientificName": "Hordeum vulgare",
+    "category": "cereals",
+    "descriptionAr": "حبوب علفية وغذائية تتحمل ظروف الوادي، مع مراقبة الصدأ والمنّ.",
+    "descriptionFr": "Céréale fourragère et alimentaire tolérante aux conditions d’El Oued; surveillance de la rouille et des pucerons.",
+    "imageKey": "barley",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "barley-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "barley-tillering",
+        "code": "tillering",
+        "nameAr": "التشعيب",
+        "nameFr": "Tallage",
+        "order": 2
+      },
+      {
+        "id": "barley-heading",
+        "code": "heading",
+        "nameAr": "السنبلة",
+        "nameFr": "Épiaison",
+        "order": 3
+      },
+      {
+        "id": "barley-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-onion",
+    "slug": "onion",
+    "nameAr": "البصل",
+    "nameFr": "Oignon",
+    "nameEn": "Oignon",
+    "scientificName": "Allium cepa",
+    "category": "vegetables",
+    "descriptionAr": "محصول خضري رئيسي، حساس للأمراض الفطرية وذبابات الأوراق في الظروف الحارة.",
+    "descriptionFr": "Culture maraîchère majeure, sensible aux maladies fongiques et aux mouches des feuilles par temps chaud.",
+    "imageKey": "onion",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "onion-sowing",
+        "code": "sowing",
+        "nameAr": "البذر/الغرس",
+        "nameFr": "Semis/Repiquage",
+        "order": 1
+      },
+      {
+        "id": "onion-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "onion-bulbing",
+        "code": "bulbing",
+        "nameAr": "تشكل البصلة",
+        "nameFr": "Bulbaison",
+        "order": 3
+      },
+      {
+        "id": "onion-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-carrot",
+    "slug": "carrot",
+    "nameAr": "الجزر",
+    "nameFr": "Carotte",
+    "nameEn": "Carotte",
+    "scientificName": "Daucus carota",
+    "category": "vegetables",
+    "descriptionAr": "جذور غنية، تتطلب تربة رملية جيدة وريّاً منتظماً; مراقبة ذبابة الجزر.",
+    "descriptionFr": "Racines riches; nécessite un sol sableux bien drainé et une irrigation régulière; surveillance de la mouche de la carotte.",
+    "imageKey": "carrot",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "carrot-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "carrot-thinning",
+        "code": "thinning",
+        "nameAr": "التفريغ",
+        "nameFr": "Éclaircissage",
+        "order": 2
+      },
+      {
+        "id": "carrot-root-dev",
+        "code": "root_development",
+        "nameAr": "تطور الجذر",
+        "nameFr": "Développement racinaire",
+        "order": 3
+      },
+      {
+        "id": "carrot-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-pepper",
+    "slug": "pepper",
+    "nameAr": "الفلفل",
+    "nameFr": "Poivron/Piment",
+    "nameEn": "Poivron/Piment",
+    "scientificName": "Capsicum annuum",
+    "category": "vegetables",
+    "descriptionAr": "محصول صيفي، حساس للمنّ والذبابة البيضاء واللفحات.",
+    "descriptionFr": "Culture estivale, sensible aux pucerons, à la mouche blanche et aux mildiou.",
+    "imageKey": "pepper",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "pepper-seedling",
+        "code": "seedling",
+        "nameAr": "الشتلة",
+        "nameFr": "Plantule",
+        "order": 1
+      },
+      {
+        "id": "pepper-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "pepper-flowering",
+        "code": "flowering",
+        "nameAr": "ال#ac3#",
+        "nameFr": "Floraison",
+        "order": 3
+      },
+      {
+        "id": "pepper-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-eggplant",
+    "slug": "eggplant",
+    "nameAr": "البادنجان",
+    "nameFr": "Aubergine",
+    "nameEn": "Aubergine",
+    "scientificName": "Solanum melongena",
+    "category": "vegetables",
+    "descriptionAr": "محصول دافئ، يجذب المنّ والذبابة البيضاء وعثة الأوراق.",
+    "descriptionFr": "Culture de saison chaude attirant pucerons, mouche blanche et mineuses.",
+    "imageKey": "eggplant",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "eggplant-seedling",
+        "code": "seedling",
+        "nameAr": "الشتلة",
+        "nameFr": "Plantule",
+        "order": 1
+      },
+      {
+        "id": "eggplant-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "eggplant-fruit",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 3
+      },
+      {
+        "id": "eggplant-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-pomegranate",
+    "slug": "pomegranate",
+    "nameAr": "الرمان",
+    "nameFr": "Grenadier",
+    "nameEn": "Grenadier",
+    "scientificName": "Punica granatum",
+    "category": "fruits",
+    "descriptionAr": "شجرة فاكهة مناسبة لمناخ الوادي، مع مراقبة حفار الساق وعفن الثمار.",
+    "descriptionFr": "Arbre fruitier adapté au climat d’El Oued; surveillance du foreur des tiges et des pourritures de fruits.",
+    "imageKey": "pomegranate",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "pomegranate-flowering",
+        "code": "flowering",
+        "nameAr": "ال#ac3#",
+        "nameFr": "Floraison",
+        "order": 1
+      },
+      {
+        "id": "pomegranate-fruit-set",
+        "code": "fruit_set",
+        "nameAr": "العقد",
+        "nameFr": "Nouaison",
+        "order": 2
+      },
+      {
+        "id": "pomegranate-ripening",
+        "code": "ripening",
+        "nameAr": "النضج",
+        "nameFr": "Maturation",
+        "order": 3
+      },
+      {
+        "id": "pomegranate-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-fig",
+    "slug": "fig",
+    "nameAr": "التين",
+    "nameFr": "Figuier",
+    "nameEn": "Figuier",
+    "scientificName": "Ficus carica",
+    "category": "fruits",
+    "descriptionAr": "شجرة فاكهة محلية، حساسة للذبابة البيضاء وعفن الثمار في الرطوبة.",
+    "descriptionFr": "Arbre fruitier local, sensible à la mouche blanche et aux pourritures par humidité.",
+    "imageKey": "fig",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "fig-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 1
+      },
+      {
+        "id": "fig-fruiting",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 2
+      },
+      {
+        "id": "fig-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "crop-watermelon",
+    "slug": "watermelon",
+    "nameAr": "البطيخ",
+    "nameFr": "Pastèque",
+    "nameEn": "Pastèque",
+    "scientificName": "Citrullus lanatus",
+    "category": "fruits",
+    "descriptionAr": "محصول صيفي رئيسي في الوادي، حساس للمنّ والذبابة البيضاء واللفحات.",
+    "descriptionFr": "Culture estivale majeure d’El Oued, sensible aux pucerons, mouche blanche et mildiou.",
+    "imageKey": "watermelon",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "watermelon-sowing",
+        "code": "sowing",
+        "nameAr": "البذر/الغرس",
+        "nameFr": "Semis/Repiquage",
+        "order": 1
+      },
+      {
+        "id": "watermelon-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "watermelon-fruiting",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 3
+      },
+      {
+        "id": "watermelon-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-melon",
+    "slug": "melon",
+    "nameAr": "الشمام",
+    "nameFr": "Melon",
+    "nameEn": "Melon",
+    "scientificName": "Cucumis melo",
+    "category": "fruits",
+    "descriptionAr": "محصول بستاني صيفي، يجذب المنّ والذبابة البيضاء.",
+    "descriptionFr": "Culture maraîchère estivale attirant pucerons et mouche blanche.",
+    "imageKey": "melon",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "melon-sowing",
+        "code": "sowing",
+        "nameAr": "البذر/الغرس",
+        "nameFr": "Semis/Repiquage",
+        "order": 1
+      },
+      {
+        "id": "melon-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "melon-fruiting",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 3
+      },
+      {
+        "id": "melon-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-faba-bean",
+    "slug": "faba-bean",
+    "nameAr": "الفول",
+    "nameFr": "Fève",
+    "nameEn": "Fève",
+    "scientificName": "Vicia faba",
+    "category": "legumes",
+    "descriptionAr": "بقولية غنية بالبروتين، حساسة للمنّ والصدأ.",
+    "descriptionFr": "Légumineuse riche en protéines, sensible aux pucerons et à la rouille.",
+    "imageKey": "faba-bean",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "faba-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "faba-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "faba-flowering",
+        "code": "flowering",
+        "nameAr": "ال#ac3#",
+        "nameFr": "Floraison",
+        "order": 3
+      },
+      {
+        "id": "faba-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-chickpea",
+    "slug": "chickpea",
+    "nameAr": "الحمص",
+    "nameFr": "Pois chiche",
+    "nameEn": "Pois chiche",
+    "scientificName": "Cicer arietinum",
+    "category": "legumes",
+    "descriptionAr": "بقولية مقاومة للجفاف، حساسة لذبابة البذور والذبول.",
+    "descriptionFr": "Légumineuse résistante à la sécheresse, sensible à la mouche des graines et au flétrissement.",
+    "imageKey": "chickpea",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "chickpea-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "chickpea-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "chickpea-podding",
+        "code": "podding",
+        "nameAr": "القرون",
+        "nameFr": "Gousse",
+        "order": 3
+      },
+      {
+        "id": "chickpea-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-lentil",
+    "slug": "lentil",
+    "nameAr": "العدس",
+    "nameFr": "Lentille",
+    "nameEn": "Lentille",
+    "scientificName": "Lens culinaris",
+    "category": "legumes",
+    "descriptionAr": "بقولية قصيرة الموسم، حساسة للمنّ والصدأ.",
+    "descriptionFr": "Légumineuse de cycle court, sensible aux pucerons et à la rouille.",
+    "imageKey": "lentil",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "lentil-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "lentil-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "lentil-podding",
+        "code": "podding",
+        "nameAr": "القرون",
+        "nameFr": "Gousse",
+        "order": 3
+      },
+      {
+        "id": "lentil-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-pea",
+    "slug": "pea",
+    "nameAr": "البازلاء",
+    "nameFr": "Pois",
+    "nameEn": "Pois",
+    "scientificName": "Pisum sativum",
+    "category": "legumes",
+    "descriptionAr": "بقولية خضرية، حساسة للمنّ وذبابة الأوراق.",
+    "descriptionFr": "Légumineuse potagère sensible aux pucerons et aux mouches des feuilles.",
+    "imageKey": "pea",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-10-23",
+    "stages": [
+      {
+        "id": "pea-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "pea-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "pea-podding",
+        "code": "podding",
+        "nameAr": "القرون",
+        "nameFr": "Gousse",
+        "order": 3
+      },
+      {
+        "id": "pea-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
     ]
   }
 ]

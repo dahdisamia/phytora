@@ -16,6 +16,14 @@ export function Diagnosis() {
   const [regionId] = useState("dz-eloued");
   const [answers, setAnswers] = useState<DiagnosticAnswer[]>([]);
   const [suspected, setSuspected] = useState<string | null>(null);
+  const [crops, setCrops] = useState<{ id: string; nameAr: string; category: string }[]>([]);
+
+  useEffect(() => {
+    fetch("/api/content/crops")
+      .then((res) => res.json())
+      .then((data) => setCrops(data.crops ?? []))
+      .catch(() => setCrops([]));
+  }, []);
 
   useEffect(() => {
     Promise.all([
@@ -56,17 +64,17 @@ export function Diagnosis() {
           <h2>المحصول</h2>
         </header>
         <div className="select-row">
-          {["crop-date-palm", "crop-potato", "crop-tomato"].map((id) => (
+          {crops.map((crop) => (
             <button
-              key={id}
-              className={`pill ${cropId === id ? "active" : ""}`}
+              key={crop.id}
+              className={`pill ${cropId === crop.id ? "active" : ""}`}
               onClick={() => {
-                setCropId(id);
+                setCropId(crop.id);
                 setAnswers([]);
                 setSuspected(null);
               }}
             >
-              {id === "crop-date-palm" ? "نخيل التمر" : id === "crop-potato" ? "البطاطا" : "الطماطم"}
+              {crop.nameAr}
             </button>
           ))}
         </div>
