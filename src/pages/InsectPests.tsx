@@ -48,7 +48,7 @@ export function InsectPests() {
   function selectPest(pestId: string) {
     sessionStorage.setItem("fg_selected_crop", cropId);
     sessionStorage.setItem("fg_selected_pest", pestId);
-    window.location.href = `/diagnosis?crop=${encodeURIComponent(cropId)}&pest=${encodeURIComponent(pestId)}`;
+    window.location.href = `/insect?crop=${encodeURIComponent(cropId)}&pest=${encodeURIComponent(pestId)}`;
   }
 
   return (
