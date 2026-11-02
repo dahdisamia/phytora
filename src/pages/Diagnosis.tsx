@@ -17,6 +17,16 @@ export function Diagnosis() {
   const [answers, setAnswers] = useState<DiagnosticAnswer[]>([]);
   const [suspected, setSuspected] = useState<string | null>(null);
   const [crops, setCrops] = useState<{ id: string; nameAr: string; category: string }[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+  const diagnosisCategories = [
+    { id: "cereals", nameAr: "الحبوب" },
+    { id: "vegetables", nameAr: "الخضروات" },
+    { id: "fruits", nameAr: "الفواكه" },
+    { id: "legumes", nameAr: "البقوليات" },
+    { id: "forage", nameAr: "المحاصيل العلفية" },
+    { id: "other", nameAr: "محاصيل أخرى" }
+  ];
 
   useEffect(() => {
     fetch("/api/content/crops")
@@ -63,21 +73,43 @@ export function Diagnosis() {
         <header className="card-header">
           <h2>المحصول</h2>
         </header>
-        <div className="select-row">
-          {crops.map((crop) => (
-            <button
-              key={crop.id}
-              className={`pill ${cropId === crop.id ? "active" : ""}`}
-              onClick={() => {
-                setCropId(crop.id);
-                setAnswers([]);
-                setSuspected(null);
-              }}
-            >
-              {crop.nameAr}
-            </button>
-          ))}
-        </div>
+        {selectedCategory === null ? (
+          <div className="select-row">
+            {diagnosisCategories.map((cat) => (
+              <button
+                key={cat.id}
+                className="pill"
+                onClick={() => setSelectedCategory(cat.id)}
+              >
+                {cat.nameAr}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div>
+            <button className="btn btn-ghost" onClick={() => setSelectedCategory(null)}>رجوع</button>
+            <div className="select-row" style={{ marginTop: "0.6rem" }}>
+              {crops
+                .filter((crop) => crop.category === selectedCategory)
+                .map((crop) => (
+                  <button
+                    key={crop.id}
+                    className={`pill ${cropId === crop.id ? "active" : ""}`}
+                    onClick={() => {
+                      setCropId(crop.id);
+                      setAnswers([]);
+                      setSuspected(null);
+                    }}
+                  >
+                    {crop.nameAr}
+                  </button>
+                ))}
+            </div>
+            {crops.filter((crop) => crop.category === selectedCategory).length === 0 && (
+              <p style={{ marginTop: "0.6rem" }}>لا توجد محاصيل في هذه الفئة بعد.</p>
+            )}
+          </div>
+        )}
       </section>
       {nextQuestion && (
         <section className="card">
