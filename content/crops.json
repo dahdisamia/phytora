@@ -1070,5 +1070,51 @@
         "order": 3
       }
     ]
+  },
+  {
+    "id": "crop-citrus",
+    "slug": "citrus",
+    "nameAr": "الحمضيات",
+    "nameFr": "Agrumes",
+    "nameEn": "Citrus",
+    "scientificName": "Citrus spp.",
+    "category": "fruits",
+    "descriptionAr": "أشجار فاكهة (برتقال، ليمون، وغيرها) مزروعة في مناطق محدودة؛ حساسة لحفار الأوراق وقشرة California.",
+    "descriptionFr": "Arbres fruitiers (oranger, citronnier, etc.) cultivés dans des zones limitées; sensibles à la mineuse des feuilles et à la cochenille de Californie.",
+    "imageKey": "citrus",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "citrus-flowering",
+        "code": "flowering",
+        "nameAr": "ال#ac3#",
+        "nameFr": "Floraison",
+        "order": 1
+      },
+      {
+        "id": "citrus-fruit-set",
+        "code": "fruit_set",
+        "nameAr": "العقد",
+        "nameFr": "Nouaison",
+        "order": 2
+      },
+      {
+        "id": "citrus-ripening",
+        "code": "ripening",
+        "nameAr": "النضج",
+        "nameFr": "Maturation",
+        "order": 3
+      },
+      {
+        "id": "citrus-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
   }
 ]

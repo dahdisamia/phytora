@@ -198,5 +198,95 @@
     "accessedDate": "2026-10-23",
     "kind": "datasheet",
     "language": "en"
+  },
+  {
+    "id": "src-eppo-lapheg",
+    "title": "Spodoptera exigua (LAPHEG) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/LAPHEG",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-triava",
+    "title": "Trialeurodes vaporariorum (TRIAVA) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/TRIAVA",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-aphigo",
+    "title": "Aphis gossypii (APHIGO) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/APHIGO",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-agrose",
+    "title": "Agrotis segetum (AGROSE) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/AGROSE",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-aulaso",
+    "title": "Aulacorthum solani (AULASO) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/AULASO",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-mayede",
+    "title": "Mayetiola destructor (MAYEDE) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/MAYEDE",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-rhopma",
+    "title": "Rhopalosiphum maidis (RHOPMA) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/RHOPMA",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-phynci",
+    "title": "Phyllocnistis citrella (PHYNCI) — EPPO distribution in Algeria",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/PHYNCI/distribution/DZ",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
+  },
+  {
+    "id": "src-eppo-aondau",
+    "title": "Aonidiella aurantii (AONDAU) — EPPO overview and taxonomy",
+    "publisher": "EPPO Global Database",
+    "url": "https://gd.eppo.int/taxon/AONDAU",
+    "publicationDate": null,
+    "accessedDate": "2026-11-02",
+    "kind": "datasheet",
+    "language": "en"
   }
 ]

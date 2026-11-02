@@ -1690,5 +1690,721 @@
     "updatedAt": "2026-10-23",
     "nameEn": "Green lacewing",
     "photoAvailable": false
+  },
+  {
+    "id": "pest-beet-armyworm",
+    "slug": "beet-armyworm",
+    "kind": "insect",
+    "scientificName": "Spodoptera exigua",
+    "authority": "Hubner, 1808",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Noctuidae",
+      "genus": "Spodoptera"
+    },
+    "nameAr": "دودة جيش الشمندر",
+    "nameFr": "Ver gris de la betterave",
+    "nameEn": "Beet armyworm",
+    "synonyms": [
+      "Spodoptera exigua",
+      "Laphygma exigua"
+    ],
+    "descriptionAr": "فراشة ليلية (Noctuidae) يرقاتها تلتهم أوراق المحاصيل (طماطم، فلفل، وغيرها). مسجلة في الجزائر، لكن الوضع التفصيلي في الوادي لم يُتحقق منه في هذه النسخة.",
+    "descriptionFr": "Papillon nocturne (Noctuidae) dont les chenilles dévorent le feuillage (tomate, poivron, etc.). Signalé en Algérie, mais le statut détaillé à El Oued n'a pas été vérifié dans cette version.",
+    "morphologyAr": "يرقة خضراء/بنية مع خطوط جانبية; الفراشة بنية رمادية. (تفاصيل التعرف العامة)",
+    "morphologyFr": "Chenille verte/brune avec lignes latérales; papillon brun-gris. (Identification générale)",
+    "lifecycleAr": "الأنثى تضع البيض على الأوراق; تتطور اليرقة على عدة أجيال في المناخ الدافئ. (تفاصيل life cycle عامة)",
+    "lifecycleFr": "La femelle pond sur les feuilles; plusieurs générations par an en climat chaud. (Cycle général)",
+    "damageAr": "تآكل الأوراق، ثقوب في الثمار/الأوراق، وتلف النمو. الإصابات الشديدة قد تؤدي إلى تشويه المحصول.",
+    "damageFr": "Défoliation, trous dans feuilles/fruits, dégâts sur jeunes pousses. Infestations sévères peuvent déprécier la récolte.",
+    "monitoringAr": "فحص الأوراق والبراعم; البحث عن يرقات وفضلات; مراقبة في serres/حقول. (عام)",
+    "monitoringFr": "Inspecter feuilles et bourgeons; rechercher chenilles et frass; surveillance en serre/champ. (Général)",
+    "featuresAr": "متعدد العوائل (polyphagous).",
+    "featuresFr": "Polyphage.",
+    "imageKey": "beet-armyworm",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-tomato",
+      "crop-pepper"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-beet-armyworm-dz",
+        "pestId": "pest-beet-armyworm",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO/CABI)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO/CABI); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-lapheg"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-lapheg"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-greenhouse-whitefly",
+    "slug": "greenhouse-whitefly",
+    "kind": "insect",
+    "scientificName": "Trialeurodes vaporariorum",
+    "authority": "Westwood, 1856",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Aleyrodidae",
+      "genus": "Trialeurodes"
+    },
+    "nameAr": "الذبابة البيضاء (بيوت محمية)",
+    "nameFr": "Aleurode des serres",
+    "nameEn": "Greenhouse whitefly",
+    "synonyms": [
+      "Trialeurodes vaporariorum"
+    ],
+    "descriptionAr": "حشرة ماصة (Hemiptera) تصيب الطماطم، الخيار، الفلفل في البيوت المحمية/الحقول. مسجلة في الجزائر (EPPO).",
+    "descriptionFr": "Insecte piqueur-suceur (Hemiptera) inféodé à la tomate, concombre, poivron en serre/champ. Signalé en Algérie (EPPO).",
+    "morphologyAr": "حشرة صغيرة بيضاء مغبرة; حوريات مسطحة على الورقة. (عام)",
+    "morphologyFr": "Petit insecte blanc farineux; larves aplaties sur feuille. (Général)",
+    "lifecycleAr": "عدة أجيال في البيوت المحمية; البيض على face inférieure des feuilles. (عام)",
+    "lifecycleFr": "Plusieurs générations en serre; œufs sous les feuilles. (Général)",
+    "damageAr": "إضعاف النبات، عسلة (honeydew) وفوماجين (suie) على الأوراق، ونقل فيروسات.",
+    "damageFr": "Affaiblissement, miellat et fumagine, transmission de virus.",
+    "monitoringAr": "فحص face inférieure des feuilles; مصائد صفراء. (عام)",
+    "monitoringFr": "Inspecter le dessous des feuilles; pièges jaunes. (Général)",
+    "featuresAr": "Typique des serres.",
+    "featuresFr": "Typique des serres.",
+    "imageKey": "greenhouse-whitefly",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-tomato",
+      "crop-cucumber",
+      "crop-pepper"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-greenhouse-whitefly-dz",
+        "pestId": "pest-greenhouse-whitefly",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-triava"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-triava"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-cotton-aphid",
+    "slug": "cotton-aphid",
+    "kind": "insect",
+    "scientificName": "Aphis gossypii",
+    "authority": "Glover, 1877",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Aphididae",
+      "genus": "Aphis"
+    },
+    "nameAr": "منّ القطن",
+    "nameFr": "Puceron du cotonnier",
+    "nameEn": "Cotton aphid",
+    "synonyms": [
+      "Aphis gossypii"
+    ],
+    "descriptionAr": "من (Hemiptera) متعدد العوائل (cucurbits, solanacées). مسجل في الجزائر (EPPO).",
+    "descriptionFr": "Puceron (Hemiptera) polyphage (cucurbitacées, solanacées). Signalé en Algérie (EPPO).",
+    "morphologyAr": "منّ صغير أخضر/أسود; أجنحة في بعض الأجيال. (عام)",
+    "morphologyFr": "Petit puceron vert/noir; ailés selon les générations. (Général)",
+    "lifecycleAr": "أجيال متعددة; تكاثر برتينوجيني في المناخ الدافئ. (عام)",
+    "lifecycleFr": "Plusieurs générations; reproduction parthénogénétique en climat chaud. (Général)",
+    "damageAr": "امتصاص العصارة، لف/تشوه الأوراق، عسلة وفوماجين، نقل فيروسات.",
+    "damageFr": "Suce la sève, déformation des feuilles, miellat et fumagine, transmission de virus.",
+    "monitoringAr": "فحص face inférieure des feuilles; مصائد صفراء. (عام)",
+    "monitoringFr": "Inspecter le dessous des feuilles; pièges jaunes. (Général)",
+    "featuresAr": "متعدد العوائل.",
+    "featuresFr": "Polyphage.",
+    "imageKey": "cotton-aphid",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-cucumber",
+      "crop-zucchini",
+      "crop-melon",
+      "crop-watermelon",
+      "crop-pepper"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-cotton-aphid-dz",
+        "pestId": "pest-cotton-aphid",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-aphigo"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-aphigo"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-turnip-moth",
+    "slug": "turnip-moth",
+    "kind": "insect",
+    "scientificName": "Agrotis segetum",
+    "authority": "Denis & Schiffermüller",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Noctuidae",
+      "genus": "Agrotis"
+    },
+    "nameAr": "عثة اللفت / قارضة",
+    "nameFr": "Noctuelle de la betterave",
+    "nameEn": "Turnip moth",
+    "synonyms": [
+      "Agrotis segetum",
+      "cutworm"
+    ],
+    "descriptionAr": "يرقات (cutworms) تقرض سيقان/شتلات المحاصيل (حبوب، بطاطا، طماطم). مسجل في الجزائر (EPPO).",
+    "descriptionFr": "Chenilles (ver gris) coupant tiges/plantules (céréales, pomme de terre, tomate). Signalé en Algérie (EPPO).",
+    "morphologyAr": "يرقة بنية/رمادية، تختبئ في التربة نهاراً. (عام)",
+    "morphologyFr": "Chenille brune/grise, se cache dans le sol le jour. (Général)",
+    "lifecycleAr": "عدة أجيال; بيات شتوي كشرنقة/يرقة. (عام)",
+    "lifecycleFr": "Plusieurs générations; hivernation en chrysalide/chenille. (Général)",
+    "damageAr": "قطع شتلات/سيقان، ثقوب في جذور/درنات، تلف نمو.",
+    "damageFr": "Coupe de plantules/tiges, trous dans racines/tubercules, dégâts de croissance.",
+    "monitoringAr": "فحص شتلات/تربة; البحث عن يرقات ليلاً. (عام)",
+    "monitoringFr": "Inspecter plantules/sol; rechercher chenilles la nuit. (Général)",
+    "featuresAr": "متعدد العوائل.",
+    "featuresFr": "Polyphage.",
+    "imageKey": "turnip-moth",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-wheat",
+      "crop-barley",
+      "crop-corn",
+      "crop-potato",
+      "crop-tomato"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-turnip-moth-dz",
+        "pestId": "pest-turnip-moth",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-agrose"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-agrose"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-foxglove-aphid",
+    "slug": "foxglove-aphid",
+    "kind": "insect",
+    "scientificName": "Aulacorthum solani",
+    "authority": "Kaltenbach, 1843",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Aphididae",
+      "genus": "Aulacorthum"
+    },
+    "nameAr": "منّ الديجيتال",
+    "nameFr": "Puceron de la digitale",
+    "nameEn": "Foxglove aphid",
+    "synonyms": [
+      "Aulacorthum solani"
+    ],
+    "descriptionAr": "من (Hemiptera) يصيب بطاطا، طماطم، فلفل. مسجل في الجزائر (EPPO).",
+    "descriptionFr": "Puceron (Hemiptera) inféodé à pomme de terre, tomate, poivron. Signalé en Algérie (EPPO).",
+    "morphologyAr": "منّ أخضر/أصفر مع قرون استشعار طويلة. (عام)",
+    "morphologyFr": "Puceron vert/jaune avec longues antennes. (Général)",
+    "lifecycleAr": "أجيال متعددة; تكاثر برتينوجيني. (عام)",
+    "lifecycleFr": "Plusieurs générations; reproduction parthénogénétique. (Général)",
+    "damageAr": "امتصاص العصارة، لف الأوراق، نقل فيروسات.",
+    "damageFr": "Suce la sève, enroulement des feuilles, transmission de virus.",
+    "monitoringAr": "فحص face inférieure des feuilles. (عام)",
+    "monitoringFr": "Inspecter le dessous des feuilles. (Général)",
+    "featuresAr": "متعدد العوائل.",
+    "featuresFr": "Polyphage.",
+    "imageKey": "foxglove-aphid",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-potato",
+      "crop-tomato",
+      "crop-pepper"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-foxglove-aphid-dz",
+        "pestId": "pest-foxglove-aphid",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-aulaso"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-aulaso"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-hessian-fly",
+    "slug": "hessian-fly",
+    "kind": "insect",
+    "scientificName": "Mayetiola destructor",
+    "authority": "Say, 1817",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Diptera",
+      "family": "Cecidomyiidae",
+      "genus": "Mayetiola"
+    },
+    "nameAr": "ذبابة الهسيان",
+    "nameFr": "Mouche de Hesse",
+    "nameEn": "Hessian fly",
+    "synonyms": [
+      "Mayetiola destructor"
+    ],
+    "descriptionAr": "ذبابة (Diptera) يرقاتها تهاجم القمح والشعير. مسجلة (EPPO).",
+    "descriptionFr": "Mouche (Diptera) dont les larves attaquent blé et orge. Signalée (EPPO).",
+    "morphologyAr": "يرقة بيضاء/صفراء; ذبابة صغيرة. (عام)",
+    "morphologyFr": "Larve blanche/jaune; petite mouche. (Général)",
+    "lifecycleAr": "عدة أجيال; بيات شتوي. (عام)",
+    "lifecycleFr": "Plusieurs générations; hivernation. (Général)",
+    "damageAr": "ضعف النبات، كسر سيقان، نقص إنتاج.",
+    "damageFr": "Affaiblissement, verse, baisse de rendement.",
+    "monitoringAr": "فحص حقول القمح/الشعير; البحث عن يرقات. (عام)",
+    "monitoringFr": "Inspecter champs de blé/orge; rechercher larves. (Général)",
+    "featuresAr": "آفة حبوب.",
+    "featuresFr": "Ravageur des céréales.",
+    "imageKey": "hessian-fly",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-wheat",
+      "crop-barley"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-hessian-fly-dz",
+        "pestId": "pest-hessian-fly",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-mayede"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-mayede"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-corn-leaf-aphid",
+    "slug": "corn-leaf-aphid",
+    "kind": "insect",
+    "scientificName": "Rhopalosiphum maidis",
+    "authority": "Fitch, 1856",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Aphididae",
+      "genus": "Rhopalosiphum"
+    },
+    "nameAr": "منّ الذرة",
+    "nameFr": "Puceron du maïs",
+    "nameEn": "Corn leaf aphid",
+    "synonyms": [
+      "Rhopalosiphum maidis"
+    ],
+    "descriptionAr": "من (Hemiptera) يصيب الذرة، القمح، الشعير. مسجل (EPPO).",
+    "descriptionFr": "Puceron (Hemiptera) inféodé au maïs, blé, orge. Signalé (EPPO).",
+    "morphologyAr": "منّ أخضر/أزرق; أجنحة في بعض الأجيال. (عام)",
+    "morphologyFr": "Puceron vert/bleu; ailés selon générations. (Général)",
+    "lifecycleAr": "أجيال متعددة. (عام)",
+    "lifecycleFr": "Plusieurs générations. (Général)",
+    "damageAr": "امتصاص العصارة، لف الأوراق، نقل فيروسات.",
+    "damageFr": "Suce la sève, enroulement, transmission de virus.",
+    "monitoringAr": "فحص الأوراق. (عام)",
+    "monitoringFr": "Inspecter les feuilles. (Général)",
+    "featuresAr": "متعدد العوائل.",
+    "featuresFr": "Polyphage.",
+    "imageKey": "corn-leaf-aphid",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-corn",
+      "crop-wheat",
+      "crop-barley"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-corn-leaf-aphid-dz",
+        "pestId": "pest-corn-leaf-aphid",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-rhopma"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-rhopma"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-cereal-leaf-beetle",
+    "slug": "cereal-leaf-beetle",
+    "kind": "insect",
+    "scientificName": "Oulema melanopa",
+    "authority": "Linnaeus, 1758",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Chrysomelidae",
+      "genus": "Oulema"
+    },
+    "nameAr": "خنفساء أوراق الحبوب",
+    "nameFr": "Chrysomèle des céréales",
+    "nameEn": "Cereal leaf beetle",
+    "synonyms": [
+      "Oulema melanopa",
+      "Oulema melanopus"
+    ],
+    "descriptionAr": "خنفساء (Coleoptera) يرقاتها/adults تلتهم أوراق الحبوب. الوضع في الجزائر/الوادي لم يُتحقق منه في هذه النسخة (لا مصدر موثق).",
+    "descriptionFr": "Coléoptère dont larves/adultes dévorent les feuilles de céréales. Statut en Algérie/El Oued non vérifié dans cette version (pas de source vérifiée).",
+    "morphologyAr": "خنفساء صغيرة بصدر برتقالي/أحمر وأجنحة زرقاء/سوداء. (عام)",
+    "morphologyFr": "Petit coléoptère à thorax orange/rouge et élytres bleu/noir. (Général)",
+    "lifecycleAr": "يرقة تلتهم parenchyme foliaire; شرنقة في التربة. (عام)",
+    "lifecycleFr": "Larve dévorant le parenchyme foliaire; chrysalide dans le sol. (Général)",
+    "damageAr": "تعرية الأوراق (stripping) ونقص التمثيل الضوئي.",
+    "damageFr": "Raclage des feuilles et baisse de photosynthèse.",
+    "monitoringAr": "فحص الأوراق; البحث عن يرقات/خنافس. (عام)",
+    "monitoringFr": "Inspecter les feuilles; rechercher larves/coléoptères. (Général)",
+    "featuresAr": "آفة حبوب.",
+    "featuresFr": "Ravageur des céréales.",
+    "imageKey": "cereal-leaf-beetle",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-wheat",
+      "crop-barley"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-cereal-leaf-beetle-dz",
+        "pestId": "pest-cereal-leaf-beetle",
+        "regionId": null,
+        "scope": "national",
+        "status": "unverified",
+        "noteAr": "الوضع في الجزائر/الوادي غير مؤكد في هذه النسخة (لا مصدر موثق).",
+        "noteFr": "Statut en Algérie/El Oued non confirmé dans cette version (pas de source vérifiée).",
+        "sourceIds": [],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-citrus-leafminer",
+    "slug": "citrus-leafminer",
+    "kind": "insect",
+    "scientificName": "Phyllocnistis citrella",
+    "authority": "Stainton, 1856",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Gracillariidae",
+      "genus": "Phyllocnistis"
+    },
+    "nameAr": "حفار أوراق الحمضيات",
+    "nameFr": "Mineuse des feuilles d'agrumes",
+    "nameEn": "Citrus leafminer",
+    "synonyms": [
+      "Phyllocnistis citrella"
+    ],
+    "descriptionAr": "فراشة (Lepidoptera) يرقاتها تخلق أنفاقاً في أوراق الحمضيات. مسجل في الجزائر (EPPO).",
+    "descriptionFr": "Papillon (Lepidoptera) dont les chenilles creusent des mines dans les feuilles d'agrumes. Signalé en Algérie (EPPO).",
+    "morphologyAr": "فراشة صغيرة فضية; أنفاق (mines) على الأوراق. (عام)",
+    "morphologyFr": "Petit papillon argenté; mines sur feuilles. (Général)",
+    "lifecycleAr": "عدة أجيال في المناخ الدافئ. (عام)",
+    "lifecycleFr": "Plusieurs générations en climat chaud. (Général)",
+    "damageAr": "أنفاق في الأوراق، تشوه الأوراق، ضعف النمو.",
+    "damageFr": "Mines foliaires, déformation des feuilles, affaiblissement.",
+    "monitoringAr": "فحص أوراق جديدة; البحث عن mines. (عام)",
+    "monitoringFr": "Inspecter jeunes feuilles; rechercher mines. (Général)",
+    "featuresAr": "آفة الحمضيات.",
+    "featuresFr": "Ravageur des agrumes.",
+    "imageKey": "citrus-leafminer",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-citrus"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-citrus-leafminer-dz",
+        "pestId": "pest-citrus-leafminer",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل في الجزائر (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé en Algérie (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-phynci"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-phynci"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
+  },
+  {
+    "id": "pest-california-red-scale",
+    "slug": "california-red-scale",
+    "kind": "insect",
+    "scientificName": "Aonidiella aurantii",
+    "authority": "Maskell, 1879",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Diaspididae",
+      "genus": "Aonidiella"
+    },
+    "nameAr": "قشرة California",
+    "nameFr": "Cochenille rouge de Californie",
+    "nameEn": "California red scale",
+    "synonyms": [
+      "Aonidiella aurantii"
+    ],
+    "descriptionAr": "قشرة (Hemiptera) تصيب الحمضيات. الوضع في الجزائر/الوادي لم يُتحقق منه في هذه النسخة (EPPO).",
+    "descriptionFr": "Cochenille (Hemiptera) inféodée aux agrumes. Statut en Algérie/El Oued non vérifié dans cette version (EPPO).",
+    "morphologyAr": "قشرة صغيرة حمراء/بنية على أوراق/ثمار. (عام)",
+    "morphologyFr": "Petite cochenille rouge/brune sur feuilles/fruits. (Général)",
+    "lifecycleAr": "عدة أجيال. (عام)",
+    "lifecycleFr": "Plusieurs générations. (Général)",
+    "damageAr": "ضعف النبات، تشوه الثمار، تساقط الأوراق.",
+    "damageFr": "Affaiblissement, déformation des fruits, chute des feuilles.",
+    "monitoringAr": "فحص أوراق/ثمار; البحث عن قشور. (عام)",
+    "monitoringFr": "Inspecter feuilles/fruits; rechercher cochenilles. (Général)",
+    "featuresAr": "آفة الحمضيات.",
+    "featuresFr": "Ravageur des agrumes.",
+    "imageKey": "california-red-scale",
+    "beneficial": false,
+    "status": "published",
+    "cropIds": [
+      "crop-citrus"
+    ],
+    "symptomIds": [],
+    "damageTypeIds": [],
+    "similarPestIds": [],
+    "traits": [],
+    "recommendationIds": [],
+    "occurrence": [
+      {
+        "id": "occ-california-red-scale-dz",
+        "pestId": "pest-california-red-scale",
+        "regionId": null,
+        "scope": "national",
+        "status": "reported",
+        "noteAr": "مسجل (EPPO)؛ الوضع الإقليمي في الوادي لم يُتحقق منه في هذه النسخة.",
+        "noteFr": "Signalé (EPPO); statut régional à El Oued non vérifié dans cette version.",
+        "sourceIds": [
+          "src-eppo-aondau"
+        ],
+        "lastVerifiedAt": "2026-11-02"
+      }
+    ],
+    "sourceIds": [
+      "src-eppo-aondau"
+    ],
+    "review": {
+      "reviewerName": null,
+      "status": "unreviewed",
+      "lastVerifiedAt": "2026-11-02"
+    },
+    "contentVersion": 1,
+    "updatedAt": "2026-11-02",
+    "photoAvailable": false
   }
 ]
