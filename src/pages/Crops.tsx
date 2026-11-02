@@ -23,7 +23,9 @@ const categories: Category[] = [
   { id: "cereals", nameAr: "الحبوب", nameEn: "Cereals", nameFr: "Céréales" },
   { id: "vegetables", nameAr: "الخضروات", nameEn: "Vegetables", nameFr: "Légumes" },
   { id: "fruits", nameAr: "الفواكه", nameEn: "Fruits", nameFr: "Fruits" },
-  { id: "legumes", nameAr: "البقوليات", nameEn: "Legumes", nameFr: "Légumineuses" }
+  { id: "legumes", nameAr: "البقوليات", nameEn: "Legumes", nameFr: "Légumineuses" },
+  { id: "forage", nameAr: "المحاصيل العلفية", nameEn: "Forage Crops", nameFr: "Cultures fourragères" },
+  { id: "other", nameAr: "محاصيل أخرى", nameEn: "Other Crops", nameFr: "Autres cultures" }
 ];
 
 export function Crops() {

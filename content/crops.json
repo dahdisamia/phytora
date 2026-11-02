@@ -801,5 +801,274 @@
         "order": 4
       }
     ]
+  },
+  {
+    "id": "crop-garlic",
+    "slug": "garlic",
+    "nameAr": "الثوم",
+    "nameFr": "Ail",
+    "nameEn": "Garlic",
+    "scientificName": "Allium sativum",
+    "category": "vegetables",
+    "descriptionAr": "محصول خضري مهم، حساس للأمراض الفطرية وذبابات الأوراق.",
+    "descriptionFr": "Culture maraîchère importante, sensible aux maladies fongiques et mouches des feuilles.",
+    "imageKey": "garlic",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "garlic-planting",
+        "code": "planting",
+        "nameAr": "الغرس",
+        "nameFr": "Plantation",
+        "order": 1
+      },
+      {
+        "id": "garlic-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "garlic-bulbing",
+        "code": "bulbing",
+        "nameAr": "تشكل البصلة",
+        "nameFr": "Bulbaison",
+        "order": 3
+      },
+      {
+        "id": "garlic-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-zucchini",
+    "slug": "zucchini",
+    "nameAr": "الكوسا",
+    "nameFr": "Courgette",
+    "nameEn": "Zucchini",
+    "scientificName": "Cucurbita pepo",
+    "category": "vegetables",
+    "descriptionAr": "محصول صيفي سريع، حساس للمنّ والذبابة البيضاء وعفن الثمار.",
+    "descriptionFr": "Culture estivale rapide, sensible aux pucerons, mouche blanche et pourritures.",
+    "imageKey": "zucchini",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "zucchini-sowing",
+        "code": "sowing",
+        "nameAr": "البذر/الغرس",
+        "nameFr": "Semis/Repiquage",
+        "order": 1
+      },
+      {
+        "id": "zucchini-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "zucchini-fruiting",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 3
+      },
+      {
+        "id": "zucchini-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-cucumber",
+    "slug": "cucumber",
+    "nameAr": "الخيار",
+    "nameFr": "Concombre",
+    "nameEn": "Cucumber",
+    "scientificName": "Cucumis sativus",
+    "category": "vegetables",
+    "descriptionAr": "محصول protected/صيفي، حساس للمنّ والذبابة البيضاء.",
+    "descriptionFr": "Culture protégée/estivale sensible aux pucerons et mouche blanche.",
+    "imageKey": "cucumber",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "cucumber-sowing",
+        "code": "sowing",
+        "nameAr": "البذر/الغرس",
+        "nameFr": "Semis/Repiquage",
+        "order": 1
+      },
+      {
+        "id": "cucumber-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "cucumber-fruiting",
+        "code": "fruiting",
+        "nameAr": "الثمار",
+        "nameFr": "Fructification",
+        "order": 3
+      },
+      {
+        "id": "cucumber-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-corn",
+    "slug": "corn",
+    "nameAr": "الذرة",
+    "nameFr": "Maïs",
+    "nameEn": "Corn",
+    "scientificName": "Zea mays",
+    "category": "cereals",
+    "descriptionAr": "حبوب صيفية، حساسة لحفار الساق والمنّ.",
+    "descriptionFr": "Céréale estivale sensible au foreur de tige et pucerons.",
+    "imageKey": "corn",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "corn-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "corn-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "corn-tasseling",
+        "code": "tasseling",
+        "nameAr": "ال releasing",
+        "nameFr": "Floraison mâle",
+        "order": 3
+      },
+      {
+        "id": "corn-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-millet",
+    "slug": "millet",
+    "nameAr": "الدخن",
+    "nameFr": "Millet",
+    "nameEn": "Millet",
+    "scientificName": "Pennisetum glaucum",
+    "category": "cereals",
+    "descriptionAr": "حبوب مقاومة للجفاف، مناسبة لمناخ الوادي.",
+    "descriptionFr": "Céréale résistante à la sécheresse, adaptée au climat d’El Oued.",
+    "imageKey": "millet",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "millet-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "millet-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "millet-heading",
+        "code": "heading",
+        "nameAr": "السنبلة",
+        "nameFr": "Épiaison",
+        "order": 3
+      },
+      {
+        "id": "millet-harvest",
+        "code": "harvest",
+        "nameAr": "الحصاد",
+        "nameFr": "Récolte",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "crop-alfalfa",
+    "slug": "alfalfa",
+    "nameAr": "الجت (البرسيم)",
+    "nameFr": "Alfalfa",
+    "nameEn": "Alfalfa",
+    "scientificName": "Medicago sativa",
+    "category": "forage",
+    "descriptionAr": "محصول علفي رئيسي، حساس للمنّ والصدأ.",
+    "descriptionFr": "Culture fourragère majeure, sensible aux pucerons et rouille.",
+    "imageKey": "alfalfa",
+    "regionIds": [
+      "dz-eloued"
+    ],
+    "lastUpdated": "2026-11-02",
+    "stages": [
+      {
+        "id": "alfalfa-sowing",
+        "code": "sowing",
+        "nameAr": "البذر",
+        "nameFr": "Semis",
+        "order": 1
+      },
+      {
+        "id": "alfalfa-vegetative",
+        "code": "vegetative",
+        "nameAr": "النمو",
+        "nameFr": "Croissance",
+        "order": 2
+      },
+      {
+        "id": "alfalfa-cutting",
+        "code": "cutting",
+        "nameAr": "الحش",
+        "nameFr": "Coupe",
+        "order": 3
+      }
+    ]
   }
 ]
