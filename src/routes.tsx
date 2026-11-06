@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 
 const Home = lazy(() => import("./pages/Home").then((m) => ({ default: m.Home })));
 const Crops = lazy(() => import("./pages/Crops").then((m) => ({ default: m.Crops })));
-const Diagnosis = lazy(() => import("./pages/Diagnosis").then((m) => ({ default: m.Diagnosis })));
 const KnowledgeList = lazy(() => import("./pages/PestDetail").then((m) => ({ default: m.KnowledgeList })));
 const Experts = lazy(() => import("./pages/Experts").then((m) => ({ default: m.Experts })));
 const Cases = lazy(() => import("./pages/Cases").then((m) => ({ default: m.Cases })));
@@ -17,7 +16,7 @@ export function AppRoutes() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/crops" element={<Crops />} />
-      <Route path="/diagnosis" element={<Diagnosis />} />
+
       <Route path="/knowledge" element={<KnowledgeList />} />
       <Route path="/knowledge/:slug" element={<PestDetail />} />
       <Route path="/pests" element={<InsectPests />} />

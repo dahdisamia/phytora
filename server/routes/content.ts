@@ -42,10 +42,6 @@ export function contentRouter(db: Db, store: ContentStore): Router {
     res.json({ crops: store.crops });
   });
 
-  router.get("/questions", (_req, res) => {
-    res.json({ questions: store.questions });
-  });
-
   router.get("/sources", (_req, res) => {
     res.json({ sources: store.sources });
   });

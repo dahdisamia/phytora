@@ -184,11 +184,7 @@ export function InsectDetail() {
             )}
           </section>
 
-          <div style={{ marginTop: "1rem" }}>
-            <Link className="btn btn-primary" to={`/diagnosis?crop=${encodeURIComponent(cropId)}&pest=${encodeURIComponent(pest.id)}`}>
-              متابعة التشخيص
-            </Link>
-          </div>
+
         </div>
       )}
 

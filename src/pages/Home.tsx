@@ -32,7 +32,7 @@ export function Home() {
           <span className="pill">{t("crops")}: نخيل التمر، البطاطا، الطماطم</span>
         </div>
         <div className="hero-actions">
-          <Link className="btn btn-primary" to="/diagnosis">{t("start_diagnosis")}</Link>
+          <Link className="btn btn-primary" to="/crops">{t("crops")}</Link>
           <Link className="btn btn-ghost" to="/knowledge">{t("knowledge")}</Link>
           <Link className="btn btn-ghost" to="/experts">{t("experts")}</Link>
         </div>

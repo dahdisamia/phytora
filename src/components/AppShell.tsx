@@ -24,7 +24,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <nav className="app-main" style={{ flex: "0 0 auto", flexDirection: "row", flexWrap: "wrap", paddingBottom: 0 }}>
         <NavLink className="pill" to="/">{t("home")}</NavLink>
         <NavLink className="pill" to="/crops">{t("crops")}</NavLink>
-        <NavLink className="pill" to="/diagnosis">{t("diagnosis")}</NavLink>
+
         <NavLink className="pill" to="/knowledge">{t("knowledge")}</NavLink>
         <NavLink className="pill" to="/experts">{t("experts")}</NavLink>
         <NavLink className="pill" to="/cases">{t("cases")}</NavLink>

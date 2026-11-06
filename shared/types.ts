@@ -186,26 +186,6 @@ export interface Pest {
   updatedAt: string;
 }
 
-export interface QuestionOption {
-  id: string;
-  labelAr: string;
-  labelFr: string;
-  descriptionAr: string;
-  descriptionFr: string;
-}
-
-export interface Question {
-  id: string;
-  code: string;
-  textAr: string;
-  textFr: string;
-  helpAr: string;
-  helpFr: string;
-  order: number;
-  type: "single" | "multi";
-  options: QuestionOption[];
-}
-
 export interface ExpertPublicProfile {
   id: string;
   displayName: string;
@@ -235,7 +215,6 @@ export interface ContentPackage {
   municipalities: Municipality[];
   crops: Crop[];
   pests: Pest[];
-  questions: Question[];
   sources: Source[];
   experts: ExpertPublicProfile[];
   warnings: string[];
@@ -245,14 +224,6 @@ export interface ContentPackage {
 export interface DiagnosticAnswer {
   questionId: string;
   optionId: string;
-}
-
-export interface DiagnosticInput {
-  cropId: string;
-  regionId: string;
-  stageId: string | null;
-  suspectedPestId: string | null;
-  answers: DiagnosticAnswer[];
 }
 
 export type ConfidenceCategory = "likely" | "possible" | "uncertain" | "insufficient";

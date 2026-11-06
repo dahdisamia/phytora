@@ -2,7 +2,6 @@ import type {
   Crop,
   OccurrenceRecord,
   Pest,
-  Question,
   Recommendation,
   Source,
   Trait,
@@ -26,7 +25,6 @@ export interface RawOccurrence extends Omit<OccurrenceRecord, "status"> {
 export interface ContentBundle {
   crops: Crop[];
   pests: Pest[];
-  questions: Question[];
   recommendations: Recommendation[];
   sources: Source[];
 }
@@ -63,7 +61,6 @@ export function validateContent(bundle: ContentBundle): string[] {
   const problems: string[] = [];
   const cropIds = new Set(bundle.crops.map((crop) => crop.id));
   const sourceIds = new Set(bundle.sources.map((source) => source.id));
-  const questionById = new Map(bundle.questions.map((q) => [q.id, q]));
   const recommendationIds = new Set(bundle.recommendations.map((r) => r.id));
   const pestIds = new Set(bundle.pests.map((pest) => pest.id));
 
@@ -88,27 +85,7 @@ export function validateContent(bundle: ContentBundle): string[] {
         problems.push(`${pest.id}: unknown similar pest ${similarId}`);
       }
     }
-    for (const trait of pest.traits) {
-      const question = questionById.get(trait.questionId);
-      if (!question) {
-        problems.push(`${pest.id}: unknown question ${trait.questionId}`);
-        continue;
-      }
-      if (!question.options.some((option) => option.id === trait.optionId)) {
-        problems.push(
-          `${pest.id}: unknown option ${trait.optionId} for ${trait.questionId}`
-        );
-      }
-    }
-    const perQuestion = new Map<string, Set<string>>();
-    for (const trait of pest.traits) {
-      const set = perQuestion.get(trait.questionId) ?? new Set<string>();
-      if (set.has(trait.optionId)) {
-        problems.push(`${pest.id}: duplicate trait ${traitKey(trait)}`);
-      }
-      set.add(trait.optionId);
-      perQuestion.set(trait.questionId, set);
-    }
+    // Traits were used by the removed question-based diagnostic engine.
     for (const occurrence of pest.occurrence) {
       for (const sourceId of occurrence.sourceIds) {
         if (!sourceIds.has(sourceId)) {

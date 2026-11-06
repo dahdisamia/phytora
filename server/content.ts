@@ -5,7 +5,6 @@ import type {
   Crop,
   ExpertPublicProfile,
   Municipality,
-  Question,
   Region,
   Source,
   ContentPackage
@@ -27,7 +26,6 @@ export interface ContentStore {
   municipalities: Municipality[];
   crops: Crop[];
   pests: ReturnType<typeof resolvePests>;
-  questions: Question[];
   sources: Source[];
   contentVersion: string;
 }
@@ -43,7 +41,6 @@ export function loadContent(): ContentStore {
   if (cache) return cache;
   const rawRegions = readJson<RawRegions>("regions.json");
   const crops = readJson<Crop[]>("crops.json");
-  const questions = readJson<Question[]>("questions.json");
   const sources = readJson<Source[]>("sources.json");
   const recommendations = readJson<Parameters<typeof resolvePests>[1]>("recommendations.json");
   const rawPests = readJson<RawPest[]>("pests.json");
@@ -52,7 +49,6 @@ export function loadContent(): ContentStore {
   const problems = validateContent({
     crops,
     pests,
-    questions,
     recommendations,
     sources
   });
@@ -62,7 +58,7 @@ export function loadContent(): ContentStore {
 
   const hash = crypto
     .createHash("sha256")
-    .update(JSON.stringify({ crops, questions, sources, rawPests, recommendations }))
+    .update(JSON.stringify({ crops, sources, rawPests, recommendations }))
     .digest("hex")
     .slice(0, 12);
 
@@ -81,7 +77,6 @@ export function loadContent(): ContentStore {
     municipalities: rawRegions.municipalities,
     crops,
     pests,
-    questions,
     sources,
     contentVersion: hash
   };
@@ -198,7 +193,6 @@ export function buildContentPackage(
     municipalities: store.municipalities.filter((item) => item.regionId === region.id),
     crops: store.crops.filter((crop) => crop.regionIds.includes(region.id)),
     pests,
-    questions: store.questions,
     sources: store.sources,
     experts,
     warnings: warningIds

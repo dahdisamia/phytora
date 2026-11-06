@@ -75,13 +75,7 @@ function validateDomain(store: ContentStore, input: CaseInput): void {
       break;
     }
   }
-  for (const answer of input.answers) {
-    const question = store.questions.find((item) => item.id === answer.questionId);
-    if (!question || !question.options.some((option) => option.id === answer.optionId)) {
-      fieldErrors.answers = "unknown_answer";
-      break;
-    }
-  }
+  // Question-based validation removed with the questions system.
   if (Object.keys(fieldErrors).length > 0) {
     throw new ApiError(
       400,
